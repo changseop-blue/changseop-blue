@@ -1,29 +1,32 @@
-👋 Changseop Lee
+# 👋 Changseop Lee
 
-🛡️ Junior Security Analyst | Blue Team · SOC
+🛡️ **Junior Security Analyst | Blue Team · SOC**
 
-🔐 About Me
+---
 
-🧑‍💻 Entry-level Blue Team / SOC-oriented security analyst
-📊 Focused on log analysis, threat detection, and incident response fundamentals
+# 🔐 About Me
+
+🧑‍💻 Entry-level **Blue Team / SOC-oriented Security Analyst**
+📊 Focused on **log analysis, threat detection, and incident response fundamentals**
 
 🔍 Evidence-first security mindset
 
-🧠 Logs → Indicators → Root Cause → Response
+**Logs → Indicators → Root Cause → Response**
 
-📝 Learning through documentation (GitHub & Blog)
+📝 Learning through **documentation (GitHub & Blog)**
 
-🧭 Focus Areas
+---
 
-📡 Log Analysis (Linux / Windows)
+# 🧭 Focus Areas
 
-🚨 SIEM & Incident Detection
+📡 **Log Analysis** (Linux / Windows)
+🚨 **SIEM & Incident Detection**
+🖥️ **System & Network Security Basics**
+🛠 **SOC Workflow & Incident Reporting**
 
-🖥️ System & Network Security Basics
+---
 
-🛠️ SOC Workflow & Reporting
-
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 🐧 Linux (Ubuntu) · CLI
 
@@ -33,7 +36,9 @@
 
 📄 Log-based Analysis Tools
 
-🧪 Hands-on Practice
+---
+
+# 🧪 Hands-on Security Practice
 
 🔐 Authentication abuse & anomaly detection
 
@@ -41,15 +46,41 @@
 
 📑 SOC-style investigation notes
 
-📂 GitHub Repositories
+---
 
-📘 security-study – Security fundamentals (attack ↔ detection)
+# 📂 Security Portfolio
 
-📊 log-analysis-notes – Log-based incident analysis
+### 📘 Security Fundamentals
 
-🧪 linux-security-lab – Linux security & defensive labs
+🔗 GitHub
+https://github.com/yourID/security-study
 
-🎓 Certifications
+📝 Blog Portfolio
+https://blog.naver.com/yourblog/security-study
+
+---
+
+### 📊 Log Analysis & Incident Investigation
+
+🔗 GitHub
+https://github.com/yourID/log-analysis-notes
+
+📝 Blog Portfolio
+https://blog.naver.com/yourblog/log-analysis
+
+---
+
+### 🧪 Linux Security Lab
+
+🔗 GitHub
+https://github.com/yourID/linux-security-lab
+
+📝 Blog Portfolio
+https://blog.naver.com/yourblog/linux-security
+
+---
+
+# 🎓 Certifications
 
 ✅ Linux Master Level 2 (Written Passed)
 
@@ -57,9 +88,11 @@
 
 📘 Information Security Industrial Engineer (Process-based)
 
-💬 Motto
+---
 
-🚨 “Security is not about alerts,
-but about connecting evidence.”
+# 💬 Motto
 
+🚨 **“Security is not about alerts,
+but about connecting evidence.”**
 
+---

@@ -44,13 +44,7 @@
 
 ---
 
-## 📂 Security Portfolio & Links
 
-| Category | GitHub | Blog |
-| :--- | :---: | :---: |
-| **Security Fundamentals** | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/yourID/security-study) | [![Blog](https://img.shields.io/badge/Read-03C75A?style=flat-square&logo=naver)](https://blog.naver.com/yourblog/security-study) |
-| **Log Analysis & Investigation** | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/yourID/log-analysis-notes) | [![Blog](https://img.shields.io/badge/Read-03C75A?style=flat-square&logo=naver)](https://blog.naver.com/yourblog/log-analysis) |
-| **Linux Security Lab** | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/yourID/linux-security-lab) | [![Blog](https://img.shields.io/badge/Read-03C75A?style=flat-square&logo=naver)](https://blog.naver.com/yourblog/linux-security) |
 
 ---
 

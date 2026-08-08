@@ -6,102 +6,160 @@
 
 ## 🔐 About Me
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Role-Junior%20Security%20Analyst-1F6FEB?style=flat-square&logo=target&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Focus-Blue%20Team%20%2F%20SOC-0052FF?style=flat-square&logo=splunk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MBTI-ISTJ-6E7681?style=flat-square"/>
-</p>
+🧑‍💻 **Blue Team / SOC 분야를 목표로 성장하고 있는 주니어 보안 분석가입니다.**
 
-🧑‍💻 Blue Team / SOC를 지향하는 신입 보안 분석가입니다.
-📊 **로그 분석 · 위협 탐지 · 침해 사고 대응**의 기본 원칙을 충실히 수행합니다.
-🔍 **Evidence-first** — 모든 판단은 추측이 아닌 **증거**에서 출발합니다.
+📊 Linux·Windows 환경의 **로그 분석, 보안 이벤트 탐지, 네트워크 트래픽 분석**을 중심으로 실습하며 보안 운영의 기본기를 쌓고 있습니다.
+
+🔍 **Evidence-First** 원칙을 바탕으로 추측보다 로그와 이벤트, 네트워크 패킷 등 **객관적인 증거를 우선하여 상황을 분석**합니다.
 
 > **Logs → Indicators → Root Cause → Response**
+
+단순히 공격을 탐지하는 것에 그치지 않고,
+**탐지 → 분석 → 원인 파악 → 대응 → 기록**으로 이어지는 SOC 업무 흐름을 이해하고 실습하는 것을 목표로 합니다.
 
 ---
 
 ## 🧭 Focus Areas
 
-- 📡 **Log Analysis** — Linux / Windows 시스템 로그 수집·분석
-- 🚨 **SIEM & Detection** — 룰 기반 탐지 및 이상 행위 식별 (Wazuh 커스텀 룰 작성 실습)
-- 🖥️ **System & Network Security** — 기본기에 충실한 방어 체계 (SELinux · Firewalld · 패킷 분석)
-- 🛠 **SOC Workflow** — 표준화된 대응 절차 · 침해 사고 보고서 작성
+* 📡 **Log Analysis**
+
+  * Linux / Windows 시스템 로그 수집 및 분석
+  * 인증·접근 로그 기반 이상 행위 분석
+  * 주요 보안 이벤트 식별
+
+* 🚨 **SIEM & Detection**
+
+  * Wazuh 기반 보안 이벤트 모니터링
+  * SSH Brute Force 탐지 실습
+  * Custom Detection Rule 작성 및 테스트
+  * FIM(File Integrity Monitoring) 실습
+
+* 🖥️ **System & Network Security**
+
+  * Linux 시스템 보안 설정
+  * SELinux · Firewalld 기반 접근 통제
+  * Wireshark를 활용한 패킷 분석
+  * 네트워크 보안 이벤트 분석
+
+* 🛠️ **SOC Workflow**
+
+  * 보안 이벤트 분석 및 분류
+  * 침해사고 대응 절차 실습
+  * Incident Report 작성
+  * 분석 결과 및 대응 과정 문서화
 
 ---
 
 ## 🛠 Tech Stack
 
 ### 💻 OS & Environments
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Rocky Linux](https://img.shields.io/badge/Rocky%20Linux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+
+`Linux` · `Ubuntu` · `Rocky Linux` · `Kali Linux` · `Windows`
 
 ### 🚨 SIEM & Network Detection
-![Wazuh](https://img.shields.io/badge/Wazuh-005E8E?style=for-the-badge&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logo=suricata&logoColor=white)
-![Snort](https://img.shields.io/badge/Snort-CC0000?style=for-the-badge&logoColor=white)
+
+`Wazuh` · `ELK Stack` · `Wireshark` · `Snort` · `Suricata`
 
 ### 🌐 Web / Application Security
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![DVWA](https://img.shields.io/badge/DVWA-D7263D?style=for-the-badge&logoColor=white)
 
-### 💻 Development
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+`Burp Suite` · `OWASP ZAP` · `DVWA` · `WebGoat` · `Bee-Box`
+
+### 💻 Development & Security Tools
+
+`Python` · `Bash` · `Docker` · `Git`
 
 ---
 
 ## 🎓 Certifications
 
-| 상태 | 자격증 | 비고 |
-|:---:|---|---|
-| ✅ | **정보보안산업기사** (Information Security Industrial Engineer) | 취득 완료 |
-| 📘 | **정보보안기사** (Information Security Engineer) | 준비 중 |
-| 📘 | **리눅스마스터 2급** (Linux Master Level 2) | 준비 중 |
-| 📘 | **네트워크관리사 2급** (Network Administrator Level 2) | 준비 중 |
+|  상태 | 자격증            | 비고    |
+| :-: | -------------- | ----- |
+|  ✅  | **정보보안산업기사**   | 취득 완료 |
+|  📘 | **정보보안기사**     | 준비 중  |
+|  📘 | **리눅스마스터 2급**  | 준비 중  |
+|  📘 | **네트워크관리사 2급** | 준비 중  |
 
 ---
 
 ## 🌱 Currently Working On
 
-- 🔬 **SIEM 실습** — Wazuh 기반 SSH BruteForce 탐지, 커스텀 룰 작성, FIM(파일 무결성 모니터링)
-- 🧪 **웹 취약점 실습** — DVWA · WebGoat · Bee-Box 기반 시나리오 분석
-- 🔐 **Secure Coding** — KISA 시큐어 코딩 가이드 학습 및 취약/안전 코드 비교
-- 🔍 **SAST / DAST** — 정적 · 동적 분석 도구 활용 및 결함 재발 방지 절차 수립
-- 📝 **Incident Reporting** — 이상행위 대응 보고서 · 로그 점검 관리대장 작성
+### 🔬 SIEM & Detection Engineering
+
+* Wazuh 기반 **SSH Brute Force 탐지**
+* Custom Detection Rule 작성 및 테스트
+* FIM(File Integrity Monitoring) 구성 및 이벤트 분석
+* 보안 이벤트의 **탐지 → 분석 → 대응** 과정 실습
+
+### 🧪 Web Security
+
+* DVWA · WebGoat · Bee-Box 기반 취약점 분석
+* OWASP Top 10 관련 공격 및 방어 시나리오 실습
+* Burp Suite · OWASP ZAP을 활용한 웹 트래픽 분석
+
+### 🔐 Secure Coding
+
+* KISA 시큐어 코딩 가이드 학습
+* 취약 코드와 보안 코드 비교
+* 취약점 발생 원인 및 개선 방법 분석
+
+### 🔍 SAST / DAST
+
+* 정적 분석과 동적 분석의 차이 및 활용 방법 학습
+* 취약점 발견부터 원인 분석, 수정 및 재발 방지까지의 과정 이해
+
+### 📝 Incident Reporting
+
+* 이상 행위 분석 보고서 작성
+* 보안 로그 분석 보고서 작성
+* 보안 이벤트 및 조치사항 기록
+* 분석 결과를 근거 중심으로 문서화
+
+---
+
+## 📂 Security Lab
+
+> 실습 환경에서 발생한 보안 이벤트를 직접 수집하고 분석하며,
+> 탐지 결과와 대응 과정을 문서화하고 있습니다.
+
+**주요 실습**
+
+* 🔐 SSH Brute Force Detection
+* 📁 File Integrity Monitoring
+* 📊 Linux Security Log Analysis
+* 🌐 Network Packet Analysis
+* 🛡️ Web Vulnerability Analysis
+* 🚨 Incident Response Simulation
+* 📑 Security Incident Report 작성
 
 ---
 
 ## 💬 Motto
 
 > **"증거는 거짓말하지 않는다."**
+
 > *Trust nothing. Verify everything. Logs tell the truth.*
 
-화려한 추측보다 한 줄의 로그가 더 정확합니다.
-침착하게, 절차대로, **증거 중심으로**.
+화려한 추측보다 **한 줄의 로그와 하나의 증거**가 더 정확한 판단을 만들 수 있다고 생각합니다.
+
+**침착하게 → 절차대로 → 증거 중심으로**
 
 ---
 
 ## 📫 Contact & Links
 
-<p align="left">
-  <a href="mailto:leechangseop71@gmail.com">
-    <img src="https://img.shields.io/badge/Email-leechangseop71%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/changseop-blue">
-    <img src="https://img.shields.io/badge/Portfolio-SOC%20Analyst%20Portfolio-1F6FEB?style=flat-square&logo=github&logoColor=white"/>
-  </a>
-</p>
+* 📧 **Email:** `your-email@example.com`
+* 💻 **GitHub:** `https://github.com/yourusername`
+* 📝 **Blog:** `https://blog.naver.com/yourusername`
+* 🔗 **LinkedIn:** `https://www.linkedin.com/in/yourusername`
 
 ---
 
-<p align="center">
-  <i>📍 Seoul, Korea · Always learning, always logging.</i>
-</p>
+### 🛡️ Target Role
+
+**Junior Security Analyst · SOC Analyst · Security Monitoring · Blue Team**
+
+> **Detect. Analyze. Respond. Document.**
+>
+> 보안 이벤트를 정확하게 탐지하고,
+> 근거를 바탕으로 분석하며,
+> 절차에 따라 대응하고 기록하는 보안 분석가를 목표로 합니다.

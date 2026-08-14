@@ -280,11 +280,16 @@ Response / Mitigation
 # 📊 GitHub Statistics
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&show=reviews,prs,issues,contribs&rank_icon=github&hide_border=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" height="180"/>
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&rank_icon=github"
+    height="180"
+    alt="GitHub Statistics"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true"
+    height="180"
+    alt="Top Languages"
+  />
 </p>
 
 ---
@@ -292,9 +297,11 @@ Response / Mitigation
 # 🔥 Contribution Streak
 
 <p align="center">
-
-<img src="https://streak-stats.demolab.com/?user=changseop-blue&hide_border=true" width="70%"/>
-
+  <img
+    src="https://streak-stats.demolab.com/?user=changseop-blue&hide_border=true"
+    width="70%"
+    alt="GitHub Contribution Streak"
+  />
 </p>
 
 ---
@@ -302,9 +309,11 @@ Response / Mitigation
 # 🏆 GitHub Achievements
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=changseop-blue&theme=flat&no-frame=true&margin-w=10&row=1" width="95%"/>
-
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=changseop-blue&theme=flat&no-frame=true&margin-w=10&row=1"
+    width="95%"
+    alt="GitHub Profile Trophy"
+  />
 </p>
 
 ---
@@ -312,10 +321,13 @@ Response / Mitigation
 # 📈 Contribution Activity
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=changseop-blue&theme=github-compact&hide_border=true&area=true" width="95%"/>
-
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=changseop-blue&theme=github-compact&hide_border=true&area=true"
+    width="95%"
+    alt="GitHub Contribution Activity"
+  />
 </p>
+
 
 ---
 

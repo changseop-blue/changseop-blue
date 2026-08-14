@@ -39,7 +39,10 @@ Infrastructure & Tools
 
 <br>
 📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true"/> </p> <br> <div align="center">
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&cache_seconds=86400"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400"/> </p>
+
+
+<br> <div align="center">
 🛡️ Detect → Analyze → Respond → Document
 
 근거 없는 판단은 없다. 로그로 증명하는 보안 분석가가 되겠습니다.

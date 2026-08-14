@@ -1,123 +1,224 @@
-제공해주신 이미지와 내용을 보면, GitHub 프로필 README(`changseop-blue/changseop-blue`)를 작성 중이신 상태이며 상단 배너(Profile Views, Followers, Stars 등) 영역의 마크다운 링크에 `YOUR GITHUB USERNAME`이라는 플레이스홀더가 그대로 남아 있거나 일부 이미지 배지 경로가 비어 있는 부분이 있습니다.
-
-해당 부분을 실제 사용자 아이디인 `changseop-blue`에 맞게 모두 교정하고, 기술 스택(Tech Stack) 섹션에서 아이콘이나 뱃지가 빠져 허전하게 보이던 부분을 직관적이고 깔끔한 배지 형태로 채워 넣은 **완성형 마크다운 코드**를 정리해 드립니다.
-
----
-
-### 📋 수정된 전체 `README.md` 코드
-
-아래 코드를 복사하여 GitHub 편집기 창에 그대로 붙여넣으시면 됩니다.
-
-```markdown
 # 👋 Changseop Lee
 
 ### 🛡️ Junior Security Analyst · Blue Team / SOC
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=changseop-blue&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
-  <a href="https://github.com/changseop-blue">
-    <img src="https://img.shields.io/github/followers/changseop-blue?style=for-the-badge&logo=github&label=Followers" />
-  </a>
-  <a href="https://github.com/changseop-blue?tab=repositories">
-    <img src="https://img.shields.io/github/stars/changseop-blue?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars" />
-  </a>
+
+![Profile Views](https://komarev.com/ghpvc/?username=changseop-blue\&style=for-the-badge\&color=blue\&label=PROFILE+VIEWS)
+
 </p>
 
 ---
 
 ## 🔐 About Me
 
-🧑‍💻 **Blue Team / SOC 분야를 목표로 성장하고 있는 주니어 보안 분석가입니다.**
+🧑‍💻 **Blue Team / SOC 분야를 목표로 성장하고 있는 Junior Security Analyst입니다.**
 
-Linux / Windows 환경에서 발생하는 **로그, 보안 이벤트, 네트워크 트래픽을 분석하고 공격 흔적을 식별하는 실습**을 중심으로 보안 운영 역량을 쌓고 있습니다.
+Linux / Windows 환경의 **보안 로그, 인증 이벤트, 네트워크 트래픽을 분석하고 공격 흔적과 IOC를 식별하는 실습**을 중심으로 보안 운영 역량을 쌓고 있습니다.
 
-특히 단순히 "공격이 발생했다"고 판단하기보다,
+단순히 공격 여부를 판단하는 것보다 **증거 기반의 분석 과정**을 중요하게 생각합니다.
 
-> **Evidence → Analysis → Detection → Response**
-
-의 흐름으로 객관적인 증거를 기반으로 보안 이벤트를 분석하는 것을 중요하게 생각합니다.
+```text
+Evidence
+   ↓
+Analysis
+   ↓
+Detection
+   ↓
+Response
+   ↓
+Documentation
+```
 
 ### 🎯 Security Philosophy
 
+> **Follow the Evidence, Not the Assumption.**
+
+로그와 네트워크 이벤트를 기반으로 문제를 재현하고,
+분석 결과를 문서화하여 **재현 가능한 보안 분석 과정**을 만드는 것을 목표로 합니다.
+
+---
+
+# 🛡️ Security Focus
+
+| Area                 | Focus                                                          |
+| -------------------- | -------------------------------------------------------------- |
+| 🔎 Log Analysis      | Linux / Windows Security Logs, Authentication Events, IOC      |
+| 🚨 SIEM              | Wazuh, Elastic Stack / ELK, Alert Triage                       |
+| 🌐 Network Security  | Wireshark, Snort, Suricata, pfSense                            |
+| 🖥️ System Security  | Linux Security, Permissions, SELinux, Firewalld, iptables      |
+| 🔐 Web Security      | OWASP Top 10, DVWA, WebGoat, Burp Suite, OWASP ZAP             |
+| 📝 Incident Response | Investigation, Timeline, Root Cause, Mitigation, Documentation |
+
+---
+
+# 🚀 Featured Security Projects
+
+## 🛡️ Wazuh Security Monitoring Lab
+
+**Linux Security Monitoring & Detection Engineering**
+
+> Linux 환경의 보안 이벤트를 Wazuh로 수집하고 탐지·분석하는 Security Monitoring Lab
+
+### 🔍 Key Features
+
+* Linux Security Log Collection
+* SSH Brute Force Detection
+* Authentication Failure Analysis
+* Custom Detection Rules
+* File Integrity Monitoring
+* Alert Triage
+* IOC Identification
+* Incident Investigation
+* Incident Documentation
+
+### 🔄 Detection Workflow
+
 ```text
-Logs
+Attack
   ↓
-Indicators
+Log Collection
+  ↓
+Detection Rule
+  ↓
+Security Alert
+  ↓
+Alert Triage
   ↓
 Investigation
   ↓
-Root Cause
-  ↓
 Response
   ↓
-Documentation
-
+Incident Report
 ```
 
-**추측보다 증거를 우선하고, 분석 결과를 기록으로 남기는 Security Analyst**를 목표로 합니다.
+📂 **Repository:**
+`[Wazuh Security Monitoring Lab](https://github.com/changseop-blue)`
 
 ---
 
-# 📊 GitHub Statistics
+## 🔥 pfSense Network Security Lab
+
+**Virtual Network Firewall & Security Architecture**
+
+> VMware 기반 가상 네트워크 환경에서 pfSense를 활용하여 방화벽과 네트워크 보안 환경을 구축한 프로젝트
+
+### 🌐 Architecture
+
+```text
+                Internet
+                   │
+                   ▼
+              ┌─────────┐
+              │ pfSense │
+              └────┬────┘
+                   │
+              ┌────┴────┐
+              │   LAN   │
+              └────┬────┘
+                   │
+        ┌──────────┼──────────┐
+        ▼          ▼          ▼
+     Linux      Security    Client
+     Server     Monitoring
+```
+
+### 🔍 Key Features
+
+* WAN / LAN Segmentation
+* Firewall Policy
+* NAT Configuration
+* Access Control
+* Network Segmentation
+* Traffic Monitoring
+* Network Security Testing
+
+📂 **Repository:**
+`[pfSense Network Security Lab](https://github.com/changseop-blue)`
 
 ---
 
-# 🔥 Contribution Streak
+## 🔎 Linux Security Log Analysis
 
----
+**Security Event Investigation Lab**
 
-# 🏆 GitHub Achievements
+> Linux 인증 및 시스템 로그를 분석하여 비정상적인 접근과 공격 흔적을 식별하는 프로젝트
 
----
+### 🔍 Analysis Process
 
-# 📈 Contribution Activity
+```text
+Authentication Log
+        ↓
+Failed / Successful Login
+        ↓
+Source IP Analysis
+        ↓
+IOC Identification
+        ↓
+Attack Timeline
+        ↓
+Root Cause Analysis
+        ↓
+Response / Mitigation
+```
 
----
+### 주요 분석 대상
 
-# 🧭 Security Focus
-
-## 📡 Log Analysis
-
-* Linux / Windows Security Log Analysis
-* Authentication Event Analysis
-* SSH Login / Failed Login Analysis
-* Suspicious IP Identification
-* IOC Identification
-* Attack Timeline Analysis
+* `/var/log/auth.log`
+* `/var/log/secure`
+* SSH Authentication
+* Failed Login
+* Successful Login
+* Suspicious Source IP
+* IOC
 * Privilege Escalation Indicators
+* Attack Timeline
+
+📂 **Repository:**
+`[Linux Security Log Analysis](https://github.com/changseop-blue)`
 
 ---
 
-## 🚨 SIEM & Detection
+# 🧰 Technical Skills
 
-* Wazuh Security Monitoring
+## 🖥️ Operating Systems
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)
+
+* Linux
+* Windows
+* Ubuntu
+* Rocky Linux
+* Kali Linux
+
+---
+
+## 🚨 SIEM / Security Monitoring
+
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge)
+![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge\&logo=elastic\&logoColor=white)
+
+* Wazuh
 * Elastic Stack / ELK
+* Elasticsearch
+* Logstash
+* Kibana
+* Filebeat
 * Security Event Monitoring
-* SSH Brute Force Detection
-* Custom Detection Rule 작성 및 테스트
-* File Integrity Monitoring
 * Alert Triage
-* Security Event Classification
-
----
-
-## 🖥️ System Security
-
-* Linux Security Configuration
-* User / Group / Permission Management
-* SELinux
-* Firewalld
-* iptables
-* Apache / Nginx
-* Linux Security Logs
+* Detection Rule Testing
+* File Integrity Monitoring
 
 ---
 
 ## 🌐 Network Security
 
-* TCP / UDP Traffic Analysis
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge\&logo=wireshark\&logoColor=white)
+
+* TCP / UDP
 * HTTP / HTTPS
-* DNS Traffic Analysis
+* DNS
 * Wireshark
 * Snort
 * Suricata
@@ -125,10 +226,28 @@ Documentation
 * Firewall Rules
 * NAT
 * Network Segmentation
+* Packet Analysis
 
 ---
 
-## 🔍 Web Security
+## 🖥️ System Security
+
+* Linux User / Group Management
+* File Permissions
+* SSH Security
+* SELinux
+* Firewalld
+* iptables
+* Apache
+* Nginx
+* Linux Security Logs
+* System Hardening
+
+---
+
+## 🔐 Web Security
+
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge\&logo=burpsuite\&logoColor=white)
 
 * OWASP Top 10
 * DVWA
@@ -137,210 +256,74 @@ Documentation
 * Burp Suite
 * OWASP ZAP
 * SQL Injection
-* XSS
+* Cross-Site Scripting
 * Command Injection
 * File Inclusion
 * Authentication Vulnerabilities
 
 ---
 
-# 🛠️ Tech Stack
+## 💻 Infrastructure / Development
 
-### 💻 Operating Systems
-
-### 🚨 SIEM / Security Monitoring
-
-### 🌐 Network / Firewall
-
-### 🔐 Web Security
-
-### 💻 Development / Infrastructure
-
----
-
-# 🎓 Certifications
-
-| Status | Certification | Details |
-| --- | --- | --- |
-| ⏳ | **정보보안산업기사** | 과정평가형 외부평가 준비 |
-| 📘 | **정보보안기사** | 학습 및 준비 |
-| 📘 | **리눅스마스터 2급** | 학습 중 |
+* VMware
+* Docker
+* Bash / Shell Script
+* Apache
+* Nginx
+* MariaDB
+* Postfix
+* Dovecot
+* Git / GitHub
 
 ---
 
-# 🚀 Currently Working On
+# 📊 GitHub Statistics
 
-## 01. 🛡️ SIEM & Detection Engineering
+<p align="center">
 
-### Wazuh Security Monitoring Lab
+<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&show=reviews,prs,issues,contribs&rank_icon=github&hide_border=true" height="180"/>
 
-* Linux Security Log 수집
-* SSH Brute Force Detection
-* Authentication Failure Analysis
-* Custom Detection Rule
-* FIM 이벤트 분석
-* Alert Triage
-* Incident Response Simulation
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" height="180"/>
+
+</p>
 
 ---
 
-## 02. 🔎 Security Log Analysis
+# 🔥 Contribution Streak
 
-Linux 환경에서 발생하는 보안 로그를 기반으로 공격 흔적을 분석합니다.
+<p align="center">
 
-```text
-Authentication Log
-        ↓
-Failed / Successful Login
-        ↓
-Suspicious Source IP
-        ↓
-IOC Identification
-        ↓
-Attack Timeline
-        ↓
-Incident Analysis
+<img src="https://streak-stats.demolab.com/?user=changseop-blue&hide_border=true" width="70%"/>
 
-```
-
-주요 분석 대상:
-
-* `/var/log/auth.log`
-* `/var/log/secure`
-* SSH Authentication
-* Failed Login
-* Successful Login
-* Privilege Escalation Indicators
-* Suspicious IP
+</p>
 
 ---
 
-## 03. 🔥 Network Security Lab
+# 🏆 GitHub Achievements
 
-### pfSense Network Security Lab
+<p align="center">
 
-VMware 기반 가상 네트워크 환경에서 네트워크 보안 구성을 실습합니다.
+<img src="https://github-profile-trophy.vercel.app/?username=changseop-blue&theme=flat&no-frame=true&margin-w=10&row=1" width="95%"/>
 
-```text
-Internet
-   │
-   ▼
-[ pfSense ]
-   │
-   ├── WAN
-   │
-   └── LAN
-       │
-       ├── Linux Server
-       ├── Security Monitoring
-       └── Client
-
-```
-
-주요 실습:
-
-* WAN / LAN Segmentation
-* Firewall Rules
-* NAT
-* Access Control
-* Network Monitoring
-* Security Event Analysis
+</p>
 
 ---
 
-## 04. 🌐 Web Security Lab
+# 📈 Contribution Activity
 
-웹 애플리케이션 취약점을 직접 재현하고 원인과 대응 방법을 분석합니다.
+<p align="center">
 
-### Practice Environment
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=changseop-blue&theme=github-compact&hide_border=true&area=true" width="95%"/>
 
-* DVWA
-* WebGoat
-* Bee-Box
-* Burp Suite
-* OWASP ZAP
-
-### Vulnerability
-
-* SQL Injection
-* Cross-Site Scripting
-* Command Injection
-* File Inclusion
-* Authentication Issues
-
----
-
-# 📂 Featured Security Projects
-
-## 🛡️ Wazuh Security Monitoring Lab
-
-> Linux 환경의 보안 이벤트를 Wazuh로 수집하고 탐지하는 Security Monitoring 프로젝트
-
-### Key Features
-
-* SSH Brute Force Detection
-* Authentication Failure Detection
-* Custom Detection Rules
-* File Integrity Monitoring
-* Alert Investigation
-* Incident Documentation
-
-**Workflow**
-
-```text
-Attack
- ↓
-Log Collection
- ↓
-Detection
- ↓
-Alert Triage
- ↓
-Investigation
- ↓
-Response
- ↓
-Incident Report
-
-```
-
----
-
-## 🔥 pfSense Network Security Lab
-
-> VMware 기반 가상 네트워크 환경에서 방화벽과 네트워크 보안 환경을 구축한 프로젝트
-
-### Key Features
-
-* WAN / LAN Segmentation
-* Firewall Policy
-* NAT
-* Access Control
-* Network Monitoring
-* Traffic Analysis
-
----
-
-## 🔍 Linux Security Log Analysis
-
-> Linux Security Log를 기반으로 비정상적인 접근과 공격 흔적을 분석하는 프로젝트
-
-### Analysis
-
-* Authentication Logs
-* SSH Login
-* Failed Login
-* Successful Login
-* Suspicious IP
-* IOC
-* Attack Timeline
-* Privilege Escalation Indicators
+</p>
 
 ---
 
 # 📝 Incident Documentation
 
-보안 실습 결과를 단순한 화면 캡처로 끝내지 않고 **Incident Report 형태로 기록**합니다.
+보안 실습을 단순한 화면 캡처로 끝내지 않고 **Incident Report 형태로 기록**합니다.
+
+### 📋 Investigation Framework
 
 ```text
 01. Incident Summary
@@ -360,70 +343,112 @@ Incident Report
 08. Mitigation
         ↓
 09. Lessons Learned
-
 ```
 
 ### Documentation Principles
 
 * Evidence-based Analysis
 * Reproducible Investigation
-* Clear Timeline
+* Clear Attack Timeline
 * IOC Documentation
 * Root Cause Analysis
 * Response Procedure
+* Mitigation
 * Lessons Learned
+
+> **The goal is not only to detect an incident, but to explain why it happened and how to prevent it from happening again.**
 
 ---
 
 # 📚 Security Learning
 
-현재 다음 영역을 중심으로 학습하고 있습니다.
+## 🔐 Security Operations
 
-* **Security Operations:** SOC, SIEM, Security Monitoring, Alert Triage, Incident Response, Log Analysis
-* **System Security:** Linux Security, Windows Security, Authentication, Access Control, System Hardening
-* **Network Security:** TCP/IP, Network Traffic Analysis, Firewall, IDS / IPS, Packet Analysis
-* **Application Security:** OWASP Top 10, Secure Coding, SAST, DAST, Web Vulnerability Analysis
+* SOC Operations
+* SIEM
+* Security Monitoring
+* Alert Triage
+* Incident Response
+* Security Log Analysis
+* Detection Engineering
+
+## 🖥️ System Security
+
+* Linux Security
+* Windows Security
+* Authentication
+* Access Control
+* System Hardening
+
+## 🌐 Network Security
+
+* TCP/IP
+* Network Traffic Analysis
+* Firewall
+* IDS / IPS
+* Packet Analysis
+
+## 🔎 Application Security
+
+* OWASP Top 10
+* Secure Coding
+* SAST
+* DAST
+* Web Vulnerability Analysis
+
+---
+
+# 🎓 Certifications
+
+| Status      | Certification | Details              |
+| ----------- | ------------- | -------------------- |
+| ⏳ Preparing | **정보보안산업기사**  | 과정평가형 외부평가 준비        |
+| 📘 Studying | **정보보안기사**    | 필기 및 관련 보안 영역 학습     |
+| 📘 Studying | **리눅스마스터 2급** | Linux 시스템 관리 및 보안 학습 |
 
 ---
 
 # 🎯 Career Goal
 
-## Junior Security Analyst
-
-### Target Roles
-
-* SOC Analyst
-* Security Monitoring
-* Security Operations
-* Blue Team
-* Junior Security Analyst
-
-### Long-Term Goal
+## Junior Security Analyst → SOC Analyst
 
 ```text
 Junior Security Analyst
         ↓
 SOC Analyst
         ↓
-Security Monitoring / Detection
+Security Monitoring
+        ↓
+Detection Engineering
         ↓
 Incident Response
         ↓
 Threat Detection & Analysis
-
 ```
 
-보안 이벤트를 정확하게 탐지하고, **근거를 바탕으로 분석 → 대응 → 기록**할 수 있는 Security Analyst로 성장하는 것을 목표로 합니다.
+### Target Roles
+
+* SOC Analyst
+* Security Monitoring Analyst
+* Security Operations
+* Blue Team
+* Junior Security Analyst
+
+장기적으로는 보안 이벤트를 정확하게 탐지하고,
+
+**Evidence → Analysis → Detection → Response → Documentation**
+
+전 과정을 수행할 수 있는 **Security Analyst**로 성장하는 것을 목표로 합니다.
 
 ---
 
 # 💡 Security Mindset
 
-> **"증거는 거짓말하지 않는다."**
+> **"Evidence over Assumption."**
 
-> **Trust nothing. Verify everything.**
+> **"Trust nothing. Verify everything."**
 
-화려한 추측보다 **하나의 로그와 하나의 네트워크 이벤트가 더 정확한 판단의 근거**가 될 수 있다고 생각합니다.
+화려한 추측보다 **로그 하나, 패킷 하나, 이벤트 하나의 증거**를 기반으로 판단하는 보안 분석가를 지향합니다.
 
 ```text
 Stay Calm
@@ -432,13 +457,31 @@ Follow the Evidence
     ↓
 Analyze
     ↓
+Detect
+    ↓
 Respond
     ↓
 Document
-
 ```
 
 ---
 
+# 📂 GitHub Projects
+
+<p align="center">
+
+<a href="https://github.com/changseop-blue">
+  <img src="https://img.shields.io/badge/GitHub-Security%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+### 🛡️ Security · 🔍 Detection · 📊 Analysis · 🚨 Response
+
 **Detect → Analyze → Respond → Document**
 
+</p>

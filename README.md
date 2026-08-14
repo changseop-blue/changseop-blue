@@ -106,18 +106,22 @@ WAN/LAN을 분리한 가상 네트워크 세그멘테이션 환경에서 방화�
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blue&label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchangseop-blue" />
 </p>
 
-<!--
-아래는 github-readme-stats(자동 통계 카드)입니다. 현재 해당 서비스(vercel.app)가 서버 오류(503)로
-일시 중단되어 있어 비활성화해두었습니다. 서비스가 복구되면 아래 <p> 두 블록을 이 주석 밖으로
-꺼내서 위 "Activity" 배지 대신(또는 함께) 사용하세요.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true"/>
-</p>
--->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" width="100%" alt="Most Used Languages" />
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true" width="100%" alt="GitHub Stats" />
+
+</td>
+</tr>
+</table>
+
+> ℹ️ 위 두 카드는 외부 무료 서비스(github-readme-stats)를 사용합니다. 가끔 이미지가 안 뜨면 서비스 과부하이니, 잠시 후 새로고침해보세요. 그래도 안 뜨면 위의 "Last Update / Repos" 배지만으로도 최소한의 활동 정보는 유지됩니다.
 
 <br>
 

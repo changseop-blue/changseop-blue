@@ -38,11 +38,8 @@ Infrastructure & Tools
 🔍 Linux Security Log Analysis auth.log, secure 등 인증 로그를 기반으로 공격 타임라인을 재구성하고, 침해사고 분석(IR) 절차를 실습했습니다.
 
 <br>
-📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&cache_seconds=86400"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400"/> </p>
-
-
-<br> <div align="center">
+📈 Activity
+<p align="center"> <img src="https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=for-the-badge&label=Last%20Update" /> <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blue&label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchangseop-blue" /> </p> <!-- 아래는 github-readme-stats(자동 통계 카드)입니다. 현재 해당 서비스(vercel.app)가 서버 오류(503)로 일시 중단되어 있어 비활성화해두었습니다. 서비스가 복구되면 아래 <p> 두 블록을 이 주석 밖으로 꺼내서 위 "Activity" 배지 대신(또는 함께) 사용하세요. <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true"/> </p> --> <br> <div align="center">
 🛡️ Detect → Analyze → Respond → Document
 
 근거 없는 판단은 없다. 로그로 증명하는 보안 분석가가 되겠습니다.

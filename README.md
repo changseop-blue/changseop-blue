@@ -11,6 +11,11 @@
 <img src="https://img.shields.io/github/stars/changseop-blue?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars" />
 <img src="https://img.shields.io/badge/Contact-leechangseop71%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
+<p align="left">
+  <img src="https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=for-the-badge&label=Last%20Update" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blue&label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchangseop-blue" />
+</p>
+
 </td>
 <td width="28%" align="center" valign="middle">
 
@@ -96,32 +101,6 @@ WAN/LAN을 분리한 가상 네트워크 세그멘테이션 환경에서 방화�
 
 **🔍 Linux Security Log Analysis**
 `auth.log`, `secure` 등 인증 로그를 기반으로 공격 타임라인을 재구성하고, 침해사고 분석(IR) 절차를 실습했습니다.
-
-<br>
-
-## 📈 Activity
-
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=for-the-badge&label=Last%20Update" />
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blue&label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchangseop-blue" />
-</p>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" width="100%" alt="Most Used Languages" />
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true" width="100%" alt="GitHub Stats" />
-
-</td>
-</tr>
-</table>
-
-> ℹ️ 위 두 카드는 외부 무료 서비스(github-readme-stats)를 사용합니다. 가끔 이미지가 안 뜨면 서비스 과부하이니, 잠시 후 새로고침해보세요. 그래도 안 뜨면 위의 "Last Update / Repos" 배지만으로도 최소한의 활동 정보는 유지됩니다.
 
 <br>
 

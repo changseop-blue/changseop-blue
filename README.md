@@ -2,6 +2,9 @@
 
 🛡️ **Junior Security Analyst · Blue Team / SOC**
 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/yourusername)
+[![Profile Views](https://komarev.com/ghpvc/?username=yourusername\&color=blueviolet\&style=flat-square\&label=Profile+Views)](https://github.com/yourusername)
+
 ---
 
 ## 🔐 About Me
@@ -19,34 +22,75 @@
 
 ---
 
+## 📊 GitHub Statistics
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&hide_border=true" height="165"/>
+
+</p>
+
+### 🔥 GitHub Contribution Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=yourusername&hide_border=true" />
+
+</p>
+
+### 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&hide_border=true" />
+
+</p>
+
+---
+
+## 📦 Repository & Activity
+
+| 항목                         | 내용                                |
+| -------------------------- | --------------------------------- |
+| 📁 **Repositories**        | GitHub 공개 저장소 및 Security Lab 프로젝트 |
+| ⭐ **Stars**                | 프로젝트 관심도                          |
+| 👁️ **Profile Views**      | GitHub 프로필 방문 수                   |
+| 🔥 **Contribution Streak** | 지속적인 개발·보안 실습 활동                  |
+| 💻 **Top Languages**       | 주요 사용 언어                          |
+| 📊 **Contributions**       | GitHub 활동 및 커밋 기록                 |
+
+---
+
 ## 🧭 Focus Areas
 
-* 📡 **Log Analysis**
+### 📡 Log Analysis
 
-  * Linux / Windows 시스템 로그 수집 및 분석
-  * 인증·접근 로그 기반 이상 행위 분석
-  * 주요 보안 이벤트 식별
+* Linux / Windows 시스템 로그 수집 및 분석
+* 인증·접근 로그 기반 이상 행위 분석
+* 주요 보안 이벤트 식별
 
-* 🚨 **SIEM & Detection**
+### 🚨 SIEM & Detection
 
-  * Wazuh 기반 보안 이벤트 모니터링
-  * SSH Brute Force 탐지 실습
-  * Custom Detection Rule 작성 및 테스트
-  * FIM(File Integrity Monitoring) 실습
+* Wazuh 기반 보안 이벤트 모니터링
+* SSH Brute Force 탐지 실습
+* Custom Detection Rule 작성 및 테스트
+* FIM(File Integrity Monitoring) 실습
 
-* 🖥️ **System & Network Security**
+### 🖥️ System & Network Security
 
-  * Linux 시스템 보안 설정
-  * SELinux · Firewalld 기반 접근 통제
-  * Wireshark를 활용한 패킷 분석
-  * 네트워크 보안 이벤트 분석
+* Linux 시스템 보안 설정
+* SELinux · Firewalld 기반 접근 통제
+* Wireshark를 활용한 패킷 분석
+* 네트워크 보안 이벤트 분석
 
-* 🛠️ **SOC Workflow**
+### 🛠️ SOC Workflow
 
-  * 보안 이벤트 분석 및 분류
-  * 침해사고 대응 절차 실습
-  * Incident Report 작성
-  * 분석 결과 및 대응 과정 문서화
+* 보안 이벤트 분석 및 분류
+* 침해사고 대응 절차 실습
+* Incident Report 작성
+* 분석 결과 및 대응 과정 문서화
 
 ---
 
@@ -133,6 +177,51 @@
 
 ---
 
+## 📌 Featured Security Projects
+
+### 🛡️ Wazuh Security Monitoring Lab
+
+> Wazuh를 활용한 Linux 보안 이벤트 모니터링 및 탐지 실습
+
+**주요 내용**
+
+* SSH Brute Force 탐지
+* 인증 실패 이벤트 분석
+* Custom Detection Rule 작성
+* FIM 이벤트 분석
+* Incident Response 시나리오 작성
+
+---
+
+### 🔥 pfSense Network Security Lab
+
+> VMware 기반 가상 네트워크 환경에서 pfSense 방화벽 구축 및 보안 정책 실습
+
+**주요 내용**
+
+* WAN / LAN 네트워크 분리
+* Firewall Rule 구성
+* NAT 설정
+* 접근제어 정책
+* 네트워크 보안 이벤트 분석
+
+---
+
+### 🔍 Linux Security Log Analysis
+
+> Linux 시스템 로그를 기반으로 이상 행위 및 보안 이벤트 분석
+
+**분석 대상**
+
+* SSH Authentication
+* `/var/log/auth.log`
+* `/var/log/secure`
+* 사용자 로그인 이벤트
+* 권한 상승 관련 이벤트
+* 비정상 접근 패턴
+
+---
+
 ## 💬 Motto
 
 > **"증거는 거짓말하지 않는다."**
@@ -154,7 +243,7 @@
 
 ---
 
-### 🛡️ Target Role
+## 🛡️ Target Role
 
 **Junior Security Analyst · SOC Analyst · Security Monitoring · Blue Team**
 
@@ -163,3 +252,11 @@
 > 보안 이벤트를 정확하게 탐지하고,
 > 근거를 바탕으로 분석하며,
 > 절차에 따라 대응하고 기록하는 보안 분석가를 목표로 합니다.
+
+---
+
+<p align="center">
+
+**🛡️ Security · 🔍 Detection · 📊 Analysis · 🚨 Response**
+
+</p>

@@ -110,18 +110,18 @@ WAN/LAN을 분리한 가상 네트워크 세그멘테이션 환경에서 방화�
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" width="100%" alt="Most Used Languages" />
+<img src="./assets/top-langs.svg" width="100%" alt="Most Used Languages" />
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true" width="100%" alt="GitHub Stats" />
+<img src="./assets/github-stats.svg" width="100%" alt="GitHub Stats" />
 
 </td>
 </tr>
 </table>
 
-> ℹ️ 카드가 안 보이면 외부 서비스(github-readme-stats)의 일시적 오류입니다. 파일 자체는 정상이니 잠시 후 새로고침해보세요.
+> ℹ️ 위 카드는 GitHub Actions가 매일 자동으로 갱신해서 저장소에 저장해두는 정적 이미지입니다. 외부 서비스 상태와 무관하게 항상 표시됩니다.
 
 <br>
 

@@ -2,9 +2,9 @@
 
 # 👋 Welcome to Changseop's Github! 🛡️
 
-[![Profile Views](https://komarev.com/ghpvc/?username=changseop-blue&style=for-the-badge&color=blue&label=PROFILE+VIEWS)](https://github.com/changseop-blue)
-[![GitHub Followers](https://img.shields.io/github/followers/changseop-blue?style=for-the-badge&logo=github&label=Followers)](https://github.com/changseop-blue)
-[![GitHub Stars](https://img.shields.io/github/stars/changseop-blue?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars)](https://github.com/changseop-blue?tab=repositories)
+<img src="https://komarev.com/ghpvc/?username=changseop-blue&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
+<img src="https://img.shields.io/github/followers/changseop-blue?style=for-the-badge&logo=github&label=Followers" />
+<img src="https://img.shields.io/github/stars/changseop-blue?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars" />
 
 </div>
 
@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
   <img src="https://img.shields.io/badge/pfSense-D64000?style=flat-square&logo=pfsense&logoColor=white"/>
   <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OWASP%20ZAP-000000?style=flat-square&logo=owasp&logoColor=white"/>
+  <img src="https://img.shields.io/badge5/OWASP%20ZAP-000000?style=flat-square&logo=owasp&logoColor=white"/>
 </p>
 
 ### 🛠️ Infrastructure & Tools
@@ -58,8 +58,8 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&show=reviews,prs,issues,contribs&rank_icon=github&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&theme=radical&hide_border=true" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&theme=radical&hide_border=true" width="48%"/>
 </p>
 
 ---

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/profile-character.png" width="180" alt="Changseop Lee character" />
+
 # 🛡️ Changseop Lee (이창섭)
 
 ### 증거를 기반으로 위협을 탐지하고 분석하는 **Junior Security Analyst (Blue Team / SOC)** 입니다.

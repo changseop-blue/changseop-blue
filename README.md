@@ -1,9 +1,26 @@
+제공해주신 이미지와 내용을 보면, GitHub 프로필 README(`changseop-blue/changseop-blue`)를 작성 중이신 상태이며 상단 배너(Profile Views, Followers, Stars 등) 영역의 마크다운 링크에 `YOUR GITHUB USERNAME`이라는 플레이스홀더가 그대로 남아 있거나 일부 이미지 배지 경로가 비어 있는 부분이 있습니다.
+
+해당 부분을 실제 사용자 아이디인 `changseop-blue`에 맞게 모두 교정하고, 기술 스택(Tech Stack) 섹션에서 아이콘이나 뱃지가 빠져 허전하게 보이던 부분을 직관적이고 깔끔한 배지 형태로 채워 넣은 **완성형 마크다운 코드**를 정리해 드립니다.
+
+---
+
+### 📋 수정된 전체 `README.md` 코드
+
+아래 코드를 복사하여 GitHub 편집기 창에 그대로 붙여넣으시면 됩니다.
+
+```markdown
 # 👋 Changseop Lee
 
 ### 🛡️ Junior Security Analyst · Blue Team / SOC
 
 <p align="left">
-
+  <img src="https://komarev.com/ghpvc/?username=changseop-blue&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
+  <a href="https://github.com/changseop-blue">
+    <img src="https://img.shields.io/github/followers/changseop-blue?style=for-the-badge&logo=github&label=Followers" />
+  </a>
+  <a href="https://github.com/changseop-blue?tab=repositories">
+    <img src="https://img.shields.io/github/stars/changseop-blue?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars" />
+  </a>
 </p>
 
 ---
@@ -34,6 +51,7 @@ Root Cause
 Response
   ↓
 Documentation
+
 ```
 
 **추측보다 증거를 우선하고, 분석 결과를 기록으로 남기는 Security Analyst**를 목표로 합니다.
@@ -42,43 +60,17 @@ Documentation
 
 # 📊 GitHub Statistics
 
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&show=reviews,prs,issues,contribs&rank_icon=github&hide_border=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" height="180"/>
-
-</p>
-
 ---
 
 # 🔥 Contribution Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com/?user=changseop-blue&hide_border=true" width="70%"/>
-
-</p>
 
 ---
 
 # 🏆 GitHub Achievements
 
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=changseop-blue&theme=flat&no-frame=true&margin-w=10&row=1" width="95%"/>
-
-</p>
-
 ---
 
 # 📈 Contribution Activity
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=changseop-blue&theme=github-compact&hide_border=true&area=true" width="95%"/>
-
-</p>
 
 ---
 
@@ -156,42 +148,23 @@ Documentation
 
 ### 💻 Operating Systems
 
-
-
-
-\
-
 ### 🚨 SIEM / Security Monitoring
-
-
-
-
-\
 
 ### 🌐 Network / Firewall
 
-\
-
 ### 🔐 Web Security
 
-
-\
-
 ### 💻 Development / Infrastructure
-
-
-
-\
 
 ---
 
 # 🎓 Certifications
 
-| Status | Certification | Details       |
-| :----: | ------------- | ------------- |
-|    ⏳   | **정보보안산업기사**  | 과정평가형 외부평가 준비 |
-|   📘   | **정보보안기사**    | 학습 및 준비       |
-|   📘   | **리눅스마스터 2급** | 학습 중          |
+| Status | Certification | Details |
+| --- | --- | --- |
+| ⏳ | **정보보안산업기사** | 과정평가형 외부평가 준비 |
+| 📘 | **정보보안기사** | 학습 및 준비 |
+| 📘 | **리눅스마스터 2급** | 학습 중 |
 
 ---
 
@@ -227,6 +200,7 @@ IOC Identification
 Attack Timeline
         ↓
 Incident Analysis
+
 ```
 
 주요 분석 대상:
@@ -256,10 +230,11 @@ Internet
    ├── WAN
    │
    └── LAN
-        │
-        ├── Linux Server
-        ├── Security Monitoring
-        └── Client
+       │
+       ├── Linux Server
+       ├── Security Monitoring
+       └── Client
+
 ```
 
 주요 실습:
@@ -314,18 +289,19 @@ Internet
 
 ```text
 Attack
-  ↓
+ ↓
 Log Collection
-  ↓
+ ↓
 Detection
-  ↓
+ ↓
 Alert Triage
-  ↓
+ ↓
 Investigation
-  ↓
+ ↓
 Response
-  ↓
+ ↓
 Incident Report
+
 ```
 
 ---
@@ -384,6 +360,7 @@ Incident Report
 08. Mitigation
         ↓
 09. Lessons Learned
+
 ```
 
 ### Documentation Principles
@@ -402,38 +379,10 @@ Incident Report
 
 현재 다음 영역을 중심으로 학습하고 있습니다.
 
-### 🔐 Security Operations
-
-* SOC
-* SIEM
-* Security Monitoring
-* Alert Triage
-* Incident Response
-* Log Analysis
-
-### 🖥️ System Security
-
-* Linux Security
-* Windows Security
-* Authentication
-* Access Control
-* System Hardening
-
-### 🌐 Network Security
-
-* TCP/IP
-* Network Traffic Analysis
-* Firewall
-* IDS / IPS
-* Packet Analysis
-
-### 🔎 Application Security
-
-* OWASP Top 10
-* Secure Coding
-* SAST
-* DAST
-* Web Vulnerability Analysis
+* **Security Operations:** SOC, SIEM, Security Monitoring, Alert Triage, Incident Response, Log Analysis
+* **System Security:** Linux Security, Windows Security, Authentication, Access Control, System Hardening
+* **Network Security:** TCP/IP, Network Traffic Analysis, Firewall, IDS / IPS, Packet Analysis
+* **Application Security:** OWASP Top 10, Secure Coding, SAST, DAST, Web Vulnerability Analysis
 
 ---
 
@@ -461,13 +410,10 @@ Security Monitoring / Detection
 Incident Response
         ↓
 Threat Detection & Analysis
+
 ```
 
-보안 이벤트를 정확하게 탐지하고,
-
-**근거를 바탕으로 분석 → 대응 → 기록**
-
-할 수 있는 Security Analyst로 성장하는 것을 목표로 합니다.
+보안 이벤트를 정확하게 탐지하고, **근거를 바탕으로 분석 → 대응 → 기록**할 수 있는 Security Analyst로 성장하는 것을 목표로 합니다.
 
 ---
 
@@ -489,26 +435,10 @@ Analyze
 Respond
     ↓
 Document
+
 ```
 
 ---
 
-# 📦 GitHub
-
-<p align="center">
-
-</p>
-
----
-
-#
-
----
-
-<p align="center">
-
-### 🛡️ Security · 🔍 Detection · 📊 Analysis · 🚨 Response
-
 **Detect → Analyze → Respond → Document**
 
-</p>

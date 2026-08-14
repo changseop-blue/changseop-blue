@@ -104,6 +104,27 @@ WAN/LAN을 분리한 가상 네트워크 세그멘테이션 환경에서 방화�
 
 <br>
 
+## 📈 Activity
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&langs_count=8&hide_border=true" width="100%" alt="Most Used Languages" />
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&include_all_commits=true&count_private=false&hide_border=true" width="100%" alt="GitHub Stats" />
+
+</td>
+</tr>
+</table>
+
+> ℹ️ 카드가 안 보이면 외부 서비스(github-readme-stats)의 일시적 오류입니다. 파일 자체는 정상이니 잠시 후 새로고침해보세요.
+
+<br>
+
 <div align="center">
 
 ### 🛡️ Detect → Analyze → Respond → Document

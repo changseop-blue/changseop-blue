@@ -208,11 +208,6 @@ Junior Security Analyst → SOC / Security Monitoring → Incident Response & Th
 <img src="https://img.shields.io/github/repo-size/changseop-blue/changseop-blue?style=for-the-badge&label=REPO%20SIZE" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" alt="Changseop's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&layout=compact&theme=tokyonight&hide_border=true" width="42%" alt="Most Used Languages" />
-</p>
-
 <br>
 
 ## 📌 Security Philosophy

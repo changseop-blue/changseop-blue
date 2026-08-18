@@ -230,5 +230,5 @@ Junior Security Analyst → SOC / Security Monitoring → Incident Response & Th
 
 <br>
 
-![changseop-blue's github stats](https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true)
+![changseop-blue's github stats](https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386)
 [![changseop-blue's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/changseop-blue)

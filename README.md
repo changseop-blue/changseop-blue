@@ -64,17 +64,19 @@ Detection Rule Improvement
 
 ## 🎯 Currently
 
-- [ ] **Wazuh / Elastic Stack / pfSense** 기반 보안 홈랩 구축
-- [ ] SSH Brute Force 공격 시나리오 재현 및 탐지
-- [ ] Linux 보안 로그 및 인증 이벤트 분석
-- [ ] Wireshark 기반 네트워크 트래픽 분석
-- [ ] pfSense Firewall 정책 및 네트워크 세그멘테이션 실습
-- [ ] Snort / Suricata IDS 탐지 실습
-- [ ] Burp Suite / OWASP ZAP 웹 보안 실습
+- [x] **Wazuh / Elastic Stack** 기반 보안 모니터링 환경 구축
+- [x] **pfSense** 기반 Firewall / IDS·IPS / VPN 홈랩 구축
+- [x] SSH Brute Force 공격 시나리오 재현 및 탐지
+- [x] Linux 보안 로그 및 인증 이벤트 분석
+- [x] Wireshark 기반 네트워크 트래픽 분석
+- [x] Snort / Suricata IDS 탐지 실습
+- [x] Burp Suite / OWASP ZAP 웹 보안 실습
+- [x] Python 기반 SOC 자동화 도구 개발 (python-security-basics)
 - [ ] 정보보안산업기사 외부평가 준비
 - [ ] 정보보안기사 및 리눅스마스터 2급 학습
 
 📫 **Contact:** `leechangseop71@gmail.com`
+🌐 **Portfolio:** [roror.co.kr](https://roror.co.kr)
 
 <br>
 
@@ -100,16 +102,23 @@ Detection Rule Improvement
 <p>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
   <img src="https://img.shields.io/badge/pfSense-D64000?style=flat-square&logo=pfsense&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white"/>
   <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white"/>
   <img src="https://img.shields.io/badge/OWASP%20ZAP-000000?style=flat-square&logo=owasp&logoColor=white"/>
+</p>
+
+### 💻 Languages & Scripting
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
 </p>
 
 ### 🖥️ Infrastructure & Tools
 <p>
   <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
 </p>
 
 <br>
@@ -121,12 +130,13 @@ Detection Rule Improvement
 | 📊 **SIEM** | Wazuh · Elastic Stack · Security Event Monitoring |
 | 🔍 **Log Analysis** | Linux 인증 로그 · 시스템 로그 · 보안 이벤트 |
 | 🌐 **Network Security** | Firewall · NAT · Segmentation · Traffic Analysis |
-| 🛡️ **IDS / IPS** | Snort · Suricata · Alert Analysis |
+| 🛡️ **IDS / IPS** | Snort · Suricata · pfBlockerNG · Alert Analysis |
 | 🧪 **Packet Analysis** | Wireshark · TCP/IP · Network Traffic |
 | 🌐 **Web Security** | Burp Suite · OWASP ZAP · OWASP Top 10 |
 | 🚨 **Incident Analysis** | IOC · Timeline · Attack Pattern |
 | 🐧 **System Security** | Linux 사용자 · 권한 · 서비스 · 로그 |
-| ⚙️ **Automation** | Bash Shell Script |
+| ⚙️ **Automation** | Python · Bash Shell Script |
+| 🔒 **VPN** | OpenVPN 구성 및 원격 접속 보안 |
 | 💻 **Virtualization** | VMware Security Lab |
 
 <br>
@@ -145,16 +155,27 @@ Detection Rule Improvement
 
 **Security Focus**: `Wazuh` `SIEM` `Log Analysis` `SSH Brute Force` `FIM` `IOC`
 
+---
+
 ### 🔥 pfSense Network Security Lab
-**목표**: VMware 기반 가상 네트워크에서 Firewall 정책과 네트워크 세그멘테이션 구축 및 검증
+**목표**: VMware 기반 가상 네트워크에서 Firewall 정책, 네트워크 세그멘테이션, IDS/IPS, VPN 구축 및 검증
 
 **주요 실습**
-- WAN/LAN 구성 및 pfSense Firewall 구축
+- WAN/LAN 구성 및 pfSense Firewall 구축 (VMware Workstation)
 - Network Segmentation, Firewall Rule 설계, NAT 구성
+- **Suricata IDS/IPS** 통합 — 공격 탐지 및 자동 차단 정책 구성
+- **pfBlockerNG** 기반 IP/도메인 차단 및 위협 인텔리전스 연동
+- **OpenVPN** 서버 구축 및 원격 접속 보안 검증
 - 허용/차단 트래픽 비교 및 비정상 접근 시나리오 재현
 - Wireshark로 Packet Analysis 및 네트워크 접근 제어 검증
 
-**Security Focus**: `pfSense` `Firewall` `NAT` `Segmentation` `Wireshark`
+**Lab Environment**: `Rocky Linux` `AlmaLinux` `Windows 10` as internal hosts
+
+**Security Focus**: `pfSense` `Firewall` `Suricata` `pfBlockerNG` `OpenVPN` `NAT` `Segmentation` `Wireshark`
+
+🔗 [View Repository →](https://github.com/changseop-blue/pfsense-portfolio)
+
+---
 
 ### 🔍 Linux Security Log Analysis
 **목표**: Linux 인증/보안 로그를 분석해 공격 흔적을 식별하고 침해사고 Timeline을 재구성
@@ -167,6 +188,39 @@ Detection Rule Improvement
 
 **Security Focus**: `Linux` `Authentication Logs` `IOC` `Timeline` `Incident Response`
 
+---
+
+### 🐍 Python Security Basics — SOC 자동화 커리큘럼
+**목표**: SOC 실무에서 활용 가능한 Python 보안 자동화 도구 개발 역량 습득
+
+**구성** (5단계 모듈)
+- **1단계**: Python 기초 및 파일 처리
+- **2단계**: 네트워크 프로그래밍 및 소켓 통신
+- **3단계**: 로그 파싱 및 패턴 분석
+- **4단계**: 보안 자동화 스크립트 개발
+- **5단계**: SOC Mini-Toolkit (Capstone 프로젝트)
+
+> 한국어 주석과 함께 SOC 실무 시나리오 중심으로 구성된 커리큘럼
+
+**Security Focus**: `Python` `Log Parsing` `Automation` `SOC Toolkit`
+
+🔗 [View Repository →](https://github.com/changseop-blue/python-security-basics)
+
+---
+
+### 🌐 SOC Portfolio Website — roror.co.kr
+**목표**: SOC 분석 경험과 보안 학습을 기록하고 채용 담당자에게 어필하는 개인 포트폴리오 사이트 구축
+
+**주요 특징**
+- **Next.js 14 + TypeScript** 기반 풀스택 웹 애플리케이션 (App Router)
+- 터미널 테마의 관리자 대시보드 및 JWT 인증
+- **MITRE ATT&CK** 매핑 참조가 포함된 마크다운 기반 보안 블로그 (CRUD + 카테고리 필터링)
+- Ubuntu + Rocky Linux 서버 환경에서 직접 운영 중 (roror.co.kr)
+
+**Security Focus**: `Next.js` `TypeScript` `MITRE ATT&CK` `Ubuntu Server` `Rocky Linux`
+
+🔗 [Live Site →](https://roror.co.kr) | [View Repository →](https://github.com/changseop-blue/soc-portfolio)
+
 <br>
 
 ## 🧪 Home Security Lab
@@ -174,6 +228,15 @@ Detection Rule Improvement
 <p align="center">
   <img src="./assets/home-lab-diagram.svg" alt="Home Security Lab architecture diagram" width="720" />
 </p>
+
+<br>
+
+## 🎓 Education
+
+| 기관 | 과정 | 상태 |
+|---|---|:---:|
+| **코리아IT아카데미** | 정보보안산업기사 과정평가형 | ✅ 수료 |
+| **학점은행제** | 정보보안학 학사 | 📘 진행 중 |
 
 <br>
 
@@ -197,8 +260,8 @@ Junior Security Analyst → SOC / Security Monitoring → Incident Response & Th
 <a href="https://github.com/changseop-blue?tab=repositories">
 <img src="https://img.shields.io/badge/Public%20Repositories-View%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="https://github.com/changseop-blue?tab=stars">
-<img src="https://img.shields.io/badge/Starred%20Repositories-View%20Stars-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://roror.co.kr" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-roror.co.kr-004386?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 </p>
 

@@ -1,297 +1,308 @@
-<table>
-<tr>
-<td width="72%" valign="middle">
+<img align="right" src="./assets/profile-character.png" width="160" alt="Changseop Lee character" />
 
-# 🛡️ Changseop Lee (이창섭)
-### Junior Security Analyst · Blue Team / SOC
+# Changseop Lee (이창섭)
 
-**로그와 네트워크 트래픽에서 공격의 흔적을 찾고,
-증거를 기반으로 위협을 분석하는 보안 분석가를 목표로 합니다.**
+**Junior Security Analyst · Blue Team / SOC**
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=changseop-blue&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/changseop-blue?style=for-the-badge&logo=github&label=FOLLOWERS" />
-  <img src="https://img.shields.io/github/stars/changseop-blue?style=for-the-badge&logo=github&label=STARS" />
-</p>
+로그와 네트워크 트래픽에서 공격의 흔적을 찾고,
+증거를 기반으로 위협을 분석하는 보안 분석가를 목표로 합니다.
 
-</td>
-<td width="28%" align="center" valign="middle">
-<img src="./assets/profile-character.png" width="200" alt="Changseop Lee character" />
-</td>
-</tr>
-</table>
+![Profile Views](https://komarev.com/ghpvc/?username=changseop-blue&style=flat-square&color=blue&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/changseop-blue?style=flat-square&logo=github&label=FOLLOWERS)
+![Stars](https://img.shields.io/github/stars/changseop-blue?style=flat-square&logo=github&label=STARS)
 
-<br>
+**Contact** `leechangseop71@gmail.com` · **Portfolio** [roror.co.kr](https://roror.co.kr)
 
-## 👋 About Me
+<br clear="right">
 
-저는 **Blue Team / SOC 분야를 목표로 성장하고 있는 Junior Security Analyst**입니다.
-Linux·Windows 환경에서 발생하는 **보안 로그, 시스템 이벤트, 네트워크 트래픽**을 분석하고 공격의 흔적을 찾아 **탐지 → 분석 → 대응 → 문서화**하는 과정을 학습하고 있습니다.
+---
 
-단순히 보안 도구를 사용하는 것에 그치지 않고,
+## About Me
 
-> **"왜 이 이벤트를 위협으로 판단했는가?"**
+Blue Team / SOC 분야를 목표로 학습 중인 Junior Security Analyst입니다.
+Linux 보안 로그와 네트워크 패킷을 읽고, 이벤트가 정상인지 비정상인지 판단하는 연습을 해 왔습니다.
 
-라는 질문에 **로그와 네트워크 증거를 근거로 설명할 수 있는 보안 분석가**가 되는 것을 목표로 합니다.
+**SOC에서 할 수 있는 일**
 
-### 🔎 Security Analysis Workflow
+- IDS(Snort, Suricata) 탐지 이벤트를 확인하고 룰 단위로 원인을 설명
+- Wireshark/tshark로 pcap을 분석해 공격 흐름과 증거 정리
+- Linux 인증·시스템 로그에서 Source IP와 시간대 기준으로 의심 이벤트 선별
+- 분석 과정을 Evidence → Analysis → Conclusion 구조로 문서화
+
+> "Alert는 시작이고, Evidence가 판단을 만든다."
+
+---
+
+## Security Analysis Workflow
 
 ```text
-Alert / Anomaly
+Alert Detection
       ↓
 Evidence Collection
       ↓
-Log & Traffic Analysis
+Log & Network Traffic Analysis
       ↓
-Attack Timeline Reconstruction
+Event Correlation
+      ↓
+Attack Timeline Analysis
       ↓
 Threat Classification
       ↓
-Response & Documentation
+Incident Response
       ↓
-Detection Rule Improvement
+Documentation & Detection Improvement
 ```
 
-| 단계 | 학습 · 실습 내용 |
+| 단계 | 의미 |
 |---|---|
-| Alert / Anomaly | SIEM으로 보안 이벤트를 수집하고 정상/비정상 이벤트를 구분 |
-| Evidence Collection → Log & Traffic Analysis | 공격 패턴과 로그의 상관관계를 분석해 의심 행위를 탐지 |
-| Attack Timeline Reconstruction | 여러 이벤트를 연결해 공격자의 행동을 Timeline으로 재구성 |
-| Threat Classification → Response & Documentation | Evidence → Analysis → Conclusion → Response 구조로 재현 가능하게 문서화 |
-| Detection Rule Improvement | 분석 결과를 바탕으로 탐지 조건을 개선하고 False Positive를 감소 |
+| Alert Detection | SIEM·IDS가 보낸 경고를 확인 |
+| Evidence Collection | 관련 로그와 패킷을 수집 |
+| Log & Traffic Analysis | 로그와 트래픽에서 의심 행위 확인 |
+| Event Correlation | 여러 이벤트를 하나의 흐름으로 연결 |
+| Attack Timeline Analysis | 시간순으로 공격 과정 재구성 |
+| Threat Classification | 공격 유형과 위험도 판단 |
+| Incident Response | 차단·격리 등 대응 방안 정리 |
+| Documentation & Detection Improvement | 보고서 작성, 탐지 룰 개선 |
 
-<br>
+> 위 흐름은 학습 중인 분석 절차이며, 실무 경험이 아닙니다.
+> 현재 실습은 가상 랩 환경에서 진행했습니다.
 
-## 🎯 Currently
+---
 
-- [x] **Wazuh / Elastic Stack** 기반 보안 모니터링 환경 구축
-- [x] **pfSense** 기반 Firewall / IDS·IPS / VPN 홈랩 구축
-- [x] SSH Brute Force 공격 시나리오 재현 및 탐지
-- [x] Linux 보안 로그 및 인증 이벤트 분석
-- [x] Wireshark 기반 네트워크 트래픽 분석
-- [x] Snort / Suricata IDS 탐지 실습
-- [x] Burp Suite / OWASP ZAP 웹 보안 실습
-- [x] Python 기반 SOC 자동화 도구 개발 (python-security-basics)
-- [ ] 정보보안산업기사 외부평가 준비
-- [ ] 정보보안기사 및 리눅스마스터 2급 학습
+## Currently
 
-📫 **Contact:** `leechangseop71@gmail.com`
-🌐 **Portfolio:** [roror.co.kr](https://roror.co.kr)
+**완료한 실습**
 
-<br>
+- [x] Ubuntu 기반 Snort 2.9.x IDS/IPS 구성 및 룰 작성
+- [x] Suricata → Logstash → Elasticsearch → Kibana 로그 파이프라인 구성
+- [x] pfSense Firewall 기본 구성 (WAN/LAN, NAT, 규칙)
+- [x] Wireshark 기반 pcap 패킷 분석 및 보고서 작성
+- [x] DVWA 대상 Burp Suite / OWASP ZAP 웹 취약점 실습
+- [x] Next.js 포트폴리오 사이트 구축 및 배포 (roror.co.kr)
 
-## 🧰 Tech Stack
+**진행 중인 학습**
 
-### 🐧 Operating Systems
-<p>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rocky%20Linux-10B981?style=flat-square&logo=rockylinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-</p>
+- [ ] Linux 인증 로그(`auth.log`, `secure`) 분석 정리
+- [ ] Wazuh 기반 SIEM 환경 학습 <!-- 증빙 확인 후 [x]로 변경 -->
+- [ ] SSH Brute Force 시나리오 재현·탐지 <!-- 증빙 확인 후 변경 -->
+- [ ] Python 로그 파싱 및 보안 자동화 학습 (python-security-basics)
 
-### 📊 SIEM & Security Monitoring
-<p>
-  <img src="https://img.shields.io/badge/Wazuh-00B0FF?style=flat-square&logo=wazuh&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Elastic%20Stack-005571?style=flat-square&logo=elastic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Snort-316192?style=flat-square&logo=snort&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Suricata-EF4444?style=flat-square&logo=suricata&logoColor=white"/>
-</p>
+**자격 및 시험**
 
-### 🌐 Network & Web Security
-<p>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/pfSense-D64000?style=flat-square&logo=pfsense&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OWASP%20ZAP-000000?style=flat-square&logo=owasp&logoColor=white"/>
-</p>
+- [ ] 정보보안산업기사 과정평가형 외부평가 재응시 준비
+- [ ] 정보보안기사 학습 <!-- 실제 학습 중일 때만 유지 -->
+- [ ] 리눅스마스터 2급 학습 <!-- 실제 학습 중일 때만 유지 -->
 
-### 💻 Languages & Scripting
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-</p>
+---
 
-### 🖥️ Infrastructure & Tools
-<p>
-  <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-</p>
+## Tech Stack
 
-<br>
+![Hands-on](https://img.shields.io/badge/Hands--on-직접_설치·실습-2ea44f?style=flat-square)
+![Familiar](https://img.shields.io/badge/Familiar-기본_개념·사용법-0969da?style=flat-square)
+![Learning](https://img.shields.io/badge/Learning-학습_중-d29922?style=flat-square)
 
-## 🛡️ Core Security Skills
+| 분류 | 기술 | 수준 |
+|---|---|---|
+| Operating Systems | Ubuntu Linux, Rocky Linux, Kali Linux, Windows | Hands-on |
+| SIEM & Monitoring | Elastic Stack (Logstash, Elasticsearch, Kibana) | Hands-on (기본 구성) |
+| SIEM & Monitoring | Wazuh | Learning |
+| Network Security | TCP/IP, Wireshark | Hands-on |
+| Network Security | pfSense | Hands-on (기본 구성) |
+| IDS / IPS | Snort, Suricata | Hands-on |
+| Web Security | Burp Suite, OWASP ZAP | Familiar (DVWA 실습) |
+| Programming & Scripting | Bash | Familiar |
+| Programming & Scripting | Python | Learning |
+| Infrastructure | VMware, Git, GitHub | Hands-on |
 
-| 분야 | 주요 역량 |
+---
+
+## Core Security Skills
+
+| 분야 | 할 수 있는 일 |
 |---|---|
-| 📊 **SIEM** | Wazuh · Elastic Stack · Security Event Monitoring |
-| 🔍 **Log Analysis** | Linux 인증 로그 · 시스템 로그 · 보안 이벤트 |
-| 🌐 **Network Security** | Firewall · NAT · Segmentation · Traffic Analysis |
-| 🛡️ **IDS / IPS** | Snort · Suricata · pfBlockerNG · Alert Analysis |
-| 🧪 **Packet Analysis** | Wireshark · TCP/IP · Network Traffic |
-| 🌐 **Web Security** | Burp Suite · OWASP ZAP · OWASP Top 10 |
-| 🚨 **Incident Analysis** | IOC · Timeline · Attack Pattern |
-| 🐧 **System Security** | Linux 사용자 · 권한 · 서비스 · 로그 |
-| ⚙️ **Automation** | Python · Bash Shell Script |
-| 🔒 **VPN** | OpenVPN 구성 및 원격 접속 보안 |
-| 💻 **Virtualization** | VMware Security Lab |
-
-<br>
-
-## 📂 Featured Security Projects
-
-### 🛡️ Wazuh Security Monitoring Lab
-**목표**: Linux 서버의 보안 이벤트를 중앙에서 수집·분석하는 SIEM 기반 모니터링 환경 구축
-
-**주요 실습**
-- Wazuh 기반 Security Monitoring 환경 구축 및 Linux 인증/시스템 로그 수집
-- SSH Brute Force 공격 재현 → 반복 인증 실패 이벤트 분석 (Source IP·Timestamp 확인)
-- FIM(File Integrity Monitoring) 구성 및 파일 변경 이벤트 분석
-- 공격 Timeline 재구성 및 IOC 식별
-- 탐지 결과 및 분석 과정 문서화
-
-**Security Focus**: `Wazuh` `SIEM` `Log Analysis` `SSH Brute Force` `FIM` `IOC`
+| SIEM | 보안 이벤트를 수집하고 Kibana 대시보드에서 확인 |
+| Log Analysis | Linux 인증·시스템 로그에서 로그인 성공/실패 확인 |
+| Network Security | TCP/IP 트래픽의 흐름과 이상 징후 분석 |
+| IDS / IPS | Snort/Suricata 탐지 이벤트와 룰의 관계 설명 |
+| Packet Analysis | Wireshark로 프로토콜별 패킷 추적, 인증 정보·파일 전송 흔적 확인 |
+| Web Security | DVWA로 SQL Injection 등 웹 취약점 재현 및 점검 |
+| Incident Analysis | 이벤트를 시간순으로 정리하는 방법 학습 |
+| System Security | Linux 계정, 권한, 서비스, 로그 점검 |
+| Automation | Python·Bash 기초, 로그 파싱 학습 |
 
 ---
 
-### 🔥 pfSense Network Security Lab
-**목표**: VMware 기반 가상 네트워크에서 Firewall 정책, 네트워크 세그멘테이션, IDS/IPS, VPN 구축 및 검증
+## Featured Security Projects
 
-**주요 실습**
-- WAN/LAN 구성 및 pfSense Firewall 구축 (VMware Workstation)
-- Network Segmentation, Firewall Rule 설계, NAT 구성
-- **Suricata IDS/IPS** 통합 — 공격 탐지 및 자동 차단 정책 구성
-- **pfBlockerNG** 기반 IP/도메인 차단 및 위협 인텔리전스 연동
-- **OpenVPN** 서버 구축 및 원격 접속 보안 검증
-- 허용/차단 트래픽 비교 및 비정상 접근 시나리오 재현
-- Wireshark로 Packet Analysis 및 네트워크 접근 제어 검증
+> 각 프로젝트의 상세 증거(스크린샷, 설정 파일, 로그)는 해당 저장소에 정리합니다.
+> `[확인 필요]`로 표시된 항목은 증빙 확인 후 갱신 예정입니다.
 
-**Lab Environment**: `Rocky Linux` `AlmaLinux` `Windows 10` as internal hosts
+### Project 01. Wazuh SOC Security Monitoring Lab
 
-**Security Focus**: `pfSense` `Firewall` `Suricata` `pfBlockerNG` `OpenVPN` `NAT` `Segmentation` `Wireshark`
+![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
 
-🔗 [View Repository →](https://github.com/changseop-blue/pfsense-portfolio)
+<details>
+<summary>상세 보기</summary>
+
+| 항목 | 내용 |
+|---|---|
+| Overview | Ubuntu 기반 Wazuh 보안 모니터링 환경 학습 |
+| Objective | Linux 인증 로그를 수집하고 인증 실패 이벤트를 대시보드에서 확인 |
+| Lab Environment | VMware, Ubuntu (Wazuh Manager), Linux agent `[확인 필요]` |
+| Tools | Wazuh, Linux auth log |
+| Implementation | 설치 및 agent 등록 `[확인 필요]` |
+| Analysis | 인증 실패 이벤트의 Source IP·Timestamp 확인 `[확인 필요]` |
+| Troubleshooting | `[확인 필요]` |
+| Evidence | `[확인 필요]` 스크린샷 / 설정 파일 |
+| Current Status | 학습 중 |
+| What I Learned | `[실제 학습 내용으로 작성]` |
+
+</details>
+
+### Project 02. Suricata IDS & Network Security Lab
+
+![Status](https://img.shields.io/badge/Status-Hands--on-2ea44f?style=flat-square)
+
+<details>
+<summary>상세 보기</summary>
+
+| 항목 | 내용 |
+|---|---|
+| Overview | Suricata 탐지 로그를 ELK 파이프라인으로 시각화하는 환경 |
+| Objective | 네트워크 트래픽과 IDS 이벤트의 관계 이해 |
+| Lab Environment | VMware, Ubuntu Server 24.04, Kali Linux (공격 호스트) |
+| Tools | Suricata, Logstash, Elasticsearch, Kibana |
+| Implementation | Suricata 설치·실행 → EVE JSON 확인 → Logstash 수집 → Kibana index pattern 구성 |
+| Analysis | 탐지 이벤트와 원본 트래픽 대조 `[사례 추가 필요]` |
+| Troubleshooting | Ubuntu 24.04 apt sources 경로 변경 이슈, index pattern 설정 오류 |
+| Evidence | `[확인 필요]` 스크린샷 / 설정 파일 |
+| Current Status | 기본 파이프라인 구성 완료 |
+| What I Learned | IDS 이벤트는 로그 수집과 정규화가 있어야 분석 가능하다는 점 |
+
+</details>
+
+### Project 03. pfSense Firewall Lab
+
+![Status](https://img.shields.io/badge/Status-Hands--on-2ea44f?style=flat-square)
+
+<details>
+<summary>상세 보기</summary>
+
+| 항목 | 내용 |
+|---|---|
+| Overview | VMware 가상 네트워크에서 pfSense 방화벽 구성 |
+| Objective | WAN/LAN 구조와 접근 제어 이해 |
+| Lab Environment | VMware Workstation, pfSense, Rocky Linux, Windows 10 (내부 호스트) |
+| Tools | pfSense, Wireshark |
+| Implementation | WAN/LAN 구성, Firewall Rule, NAT |
+| Analysis | 허용/차단 트래픽 비교 |
+| Troubleshooting | `[확인 필요]` |
+| Evidence | `[확인 필요]` |
+| Current Status | 기본 구성 및 테스트 완료 |
+| What I Learned | 규칙 순서와 방향(In/Out)이 정책 결과를 결정한다는 점 |
+
+pfBlockerNG, Suricata 연동, OpenVPN은 테스트 증거 확인 후 추가합니다.
+
+🔗 [Repository](https://github.com/changseop-blue/pfsense-portfolio) `[링크 확인 필요]`
+
+</details>
+
+### Project 04. Linux Security Log Analysis
+
+![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
+
+<details>
+<summary>상세 보기</summary>
+
+| 항목 | 내용 |
+|---|---|
+| Overview | Linux 인증 로그 분석 학습 |
+| Objective | 로그인 성공/실패 패턴과 Source IP 식별 |
+| Lab Environment | Rocky Linux / Ubuntu `[확인 필요]` |
+| Tools | `auth.log`, `secure`, grep, awk |
+| Implementation | `[확인 필요]` |
+| Analysis | 반복 인증 실패 패턴 확인 `[확인 필요]` |
+| Troubleshooting | `[확인 필요]` |
+| Evidence | `[확인 필요]` |
+| Current Status | 학습 중 |
+| What I Learned | `[실제 학습 내용으로 작성]` |
+
+</details>
+
+### Project 05. Python Security Basics
+
+![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
+
+<details>
+<summary>상세 보기</summary>
+
+| 항목 | 내용 |
+|---|---|
+| Overview | SOC 실무를 가정한 Python 5단계 학습 저장소 |
+| Objective | 파일·로그 처리와 로그 파싱 기초 |
+| Lab Environment | Python, PyCharm |
+| Tools | Python |
+| Implementation | 1~5단계 폴더 구조, 한국어 주석 |
+| Analysis | `[실제 구현한 기능만 기재]` |
+| Troubleshooting | `[확인 필요]` |
+| Evidence | 저장소 코드 |
+| Current Status | 학습 진행 중 (Capstone 완성 시 갱신) |
+| What I Learned | `[실제 학습 내용으로 작성]` |
+
+🔗 [Repository](https://github.com/changseop-blue/python-security-basics) `[링크 확인 필요]`
+
+</details>
+
+### Portfolio Website — roror.co.kr
+
+Next.js 14, TypeScript(App Router) 기반 개인 사이트입니다.
+JWT 인증 관리자 페이지와 마크다운 블로그를 운영하며, 글에는 MITRE ATT&CK 참조를 포함합니다.
+
+🔗 [Live Site](https://roror.co.kr) · [Repository](https://github.com/changseop-blue/soc-portfolio) `[링크 확인 필요]`
 
 ---
 
-### 🔍 Linux Security Log Analysis
-**목표**: Linux 인증/보안 로그를 분석해 공격 흔적을 식별하고 침해사고 Timeline을 재구성
-
-**주요 실습**
-- `auth.log` / `secure` 분석 및 로그인 성공·실패 이벤트 분석
-- 반복적인 인증 실패 탐지 및 Source IP 추적
-- 사용자 기반 이벤트 분석 및 시간순 Timeline 구성
-- IOC 확인 및 Incident Analysis Report 작성
-
-**Security Focus**: `Linux` `Authentication Logs` `IOC` `Timeline` `Incident Response`
-
----
-
-### 🐍 Python Security Basics — SOC 자동화 커리큘럼
-**목표**: SOC 실무에서 활용 가능한 Python 보안 자동화 도구 개발 역량 습득
-
-**구성** (5단계 모듈)
-- **1단계**: Python 기초 및 파일 처리
-- **2단계**: 네트워크 프로그래밍 및 소켓 통신
-- **3단계**: 로그 파싱 및 패턴 분석
-- **4단계**: 보안 자동화 스크립트 개발
-- **5단계**: SOC Mini-Toolkit (Capstone 프로젝트)
-
-> 한국어 주석과 함께 SOC 실무 시나리오 중심으로 구성된 커리큘럼
-
-**Security Focus**: `Python` `Log Parsing` `Automation` `SOC Toolkit`
-
-🔗 [View Repository →](https://github.com/changseop-blue/python-security-basics)
-
----
-
-### 🌐 SOC Portfolio Website — roror.co.kr
-**목표**: SOC 분석 경험과 보안 학습을 기록하고 채용 담당자에게 어필하는 개인 포트폴리오 사이트 구축
-
-**주요 특징**
-- **Next.js 14 + TypeScript** 기반 풀스택 웹 애플리케이션 (App Router)
-- 터미널 테마의 관리자 대시보드 및 JWT 인증
-- **MITRE ATT&CK** 매핑 참조가 포함된 마크다운 기반 보안 블로그 (CRUD + 카테고리 필터링)
-- Ubuntu + Rocky Linux 서버 환경에서 직접 운영 중 (roror.co.kr)
-
-**Security Focus**: `Next.js` `TypeScript` `MITRE ATT&CK` `Ubuntu Server` `Rocky Linux`
-
-🔗 [Live Site →](https://roror.co.kr) | [View Repository →](https://github.com/changseop-blue/soc-portfolio)
-
-<br>
-
-## 🧪 Home Security Lab
+## Home Security Lab
 
 <p align="center">
   <img src="./assets/home-lab-diagram.svg" alt="Home Security Lab architecture diagram" width="720" />
 </p>
 
-<br>
+<!-- 구성도는 실제 구축한 VM과 연결만 포함하는지 확인 후 사용.
+     (예: Kali, Ubuntu IDS, Rocky Linux 웹서버) 미구축 장비는 제거. -->
 
-## 🎓 Education
+---
 
-| 기관 | 과정 | 상태 |
-|---|---|:---:|
-| **코리아IT아카데미** | 정보보안산업기사 과정평가형 | ✅ 수료 |
-| **학점은행제** | 정보보안학 학사 | 📘 진행 중 |
+## Education & Certifications
 
-<br>
+| 기관 / 자격 | 과정 | 상태 |
+|---|---|---|
+| 코리아IT아카데미 | 정보보안산업기사 과정평가형 | 수료 |
+| 학점은행제 | 정보보안학 학사 | 진행 중 |
+| 정보보안산업기사 | 외부평가 | 재응시 준비 (미취득) |
+| 정보보안기사 | 정보보안 이론·실무 | 학습 중 `[확인 필요]` |
+| 리눅스마스터 2급 | Linux 시스템 운영 | 학습 중 `[확인 필요]` |
 
-## 🏆 Certifications & Career Roadmap
+---
 
-| 자격증 / 학습 | 분야 | 상태 |
-|---|---|:---:|
-| **정보보안산업기사** | 보안 실무 / 과정평가형 | ⏳ 외부평가 준비 |
-| **정보보안기사** | 정보보안 이론 / 실무 | 📘 학습 중 |
-| **리눅스마스터 2급** | Linux 시스템 운영 | 📘 준비 중 |
+## GitHub Activity
 
-```text
-Junior Security Analyst → SOC / Security Monitoring → Incident Response & Threat Analysis → Detection Engineering → Advanced Security Analyst
-```
+[![Repositories](https://img.shields.io/badge/Repositories-View-181717?style=flat-square&logo=github)](https://github.com/changseop-blue?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-roror.co.kr-004386?style=flat-square)](https://roror.co.kr)
+![Last Commit](https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=flat-square&label=LAST%20COMMIT)
 
-<br>
+<!-- 통계 이미지는 장애가 잦아 접어 둠. 깨지면 이 블록만 삭제 -->
+<details>
+<summary>GitHub Stats</summary>
 
-## 📈 GitHub Activity
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&hide_border=true&title_color=004386&layout=compact)
 
-<p align="center">
-<a href="https://github.com/changseop-blue?tab=repositories">
-<img src="https://img.shields.io/badge/Public%20Repositories-View%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://roror.co.kr" target="_blank">
-<img src="https://img.shields.io/badge/Portfolio-roror.co.kr-004386?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-</p>
+</details>
 
-<p align="center">
-<img src="https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=for-the-badge&label=LAST%20COMMIT" />
-<img src="https://img.shields.io/github/languages/count/changseop-blue/changseop-blue?style=for-the-badge&label=Languages" />
-<img src="https://img.shields.io/github/repo-size/changseop-blue/changseop-blue?style=for-the-badge&label=REPO%20SIZE" />
-</p>
+---
 
-<br>
+## Security Philosophy
 
-## 📌 Security Philosophy
-
-> **"Alert는 시작이고, Evidence가 판단을 만든다."**
-
-보안 분석에서 중요한 것은 단순히 경고를 발견하는 것이 아니라,
-**무슨 일이 발생했는가 → 왜 발생했는가 → 공격인가 → 어떻게 대응할 것인가**
-를 로그와 네트워크 트래픽이라는 **객관적인 증거**를 통해 설명하는 것이라고 생각합니다.
-
-<br>
-
-<div align="center">
-
-# 🛡️ Detect → Analyze → Respond → Document
-### **근거 없는 판단은 없다.**
-### **로그로 증명하는 Security Analyst가 되겠습니다.**
-
-</div>
-
-<br>
-
-![changseop-blue's github stats](https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386)
-[![changseop-blue's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/changseop-blue)
+무슨 일이 발생했는가 → 왜 발생했는가 → 공격인가 → 어떻게 대응할 것인가.
+이 네 질문에 로그와 패킷이라는 객관적 증거로 답하는 분석가가 되겠습니다.

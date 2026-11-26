@@ -1,4 +1,4 @@
-<img align="right" src="./assets/profile-character.png" width="160" alt="Changseop Lee character" />
+<img align="right" src="https://raw.githubusercontent.com/changseop-blue/changseop-blue/main/assets/profile-character.png" width="160" alt="Changseop Lee character" />
 
 # Changseop Lee (이창섭)
 
@@ -11,7 +11,11 @@
 ![Followers](https://img.shields.io/github/followers/changseop-blue?style=flat-square&logo=github&label=FOLLOWERS)
 ![Stars](https://img.shields.io/github/stars/changseop-blue?style=flat-square&logo=github&label=STARS)
 
-**Contact** `leechangseop71@gmail.com` · **Portfolio** [roror.co.kr](https://roror.co.kr)
+![Blue Team](https://img.shields.io/badge/Role-Blue_Team_%2F_SOC-004386?style=flat-square)
+![Location](https://img.shields.io/badge/Region-Korea-555555?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Open_to_Entry--level_SOC-2ea44f?style=flat-square)
+
+**Contact** `leechangseop71@gmail.com`
 
 <br clear="right">
 
@@ -78,7 +82,7 @@ Documentation & Detection Improvement
 - [x] pfSense Firewall 기본 구성 (WAN/LAN, NAT, 규칙)
 - [x] Wireshark 기반 pcap 패킷 분석 및 보고서 작성
 - [x] DVWA 대상 Burp Suite / OWASP ZAP 웹 취약점 실습
-- [x] Next.js 포트폴리오 사이트 구축 및 배포 (roror.co.kr)
+- [x] Next.js 포트폴리오 사이트 구축 및 직접 호스팅
 
 **진행 중인 학습**
 
@@ -97,22 +101,52 @@ Documentation & Detection Improvement
 
 ## Tech Stack
 
-![Hands-on](https://img.shields.io/badge/Hands--on-직접_설치·실습-2ea44f?style=flat-square)
-![Familiar](https://img.shields.io/badge/Familiar-기본_개념·사용법-0969da?style=flat-square)
-![Learning](https://img.shields.io/badge/Learning-학습_중-d29922?style=flat-square)
+![Hands-on](https://img.shields.io/badge/Level-Hands--on_직접_설치·실습-2ea44f?style=flat-square)
+![Familiar](https://img.shields.io/badge/Level-Familiar_기본_개념·사용법-0969da?style=flat-square)
+![Learning](https://img.shields.io/badge/Level-Learning_학습_중-d29922?style=flat-square)
 
-| 분류 | 기술 | 수준 |
-|---|---|---|
-| Operating Systems | Ubuntu Linux, Rocky Linux, Kali Linux, Windows | Hands-on |
-| SIEM & Monitoring | Elastic Stack (Logstash, Elasticsearch, Kibana) | Hands-on (기본 구성) |
-| SIEM & Monitoring | Wazuh | Learning |
-| Network Security | TCP/IP, Wireshark | Hands-on |
-| Network Security | pfSense | Hands-on (기본 구성) |
-| IDS / IPS | Snort, Suricata | Hands-on |
-| Web Security | Burp Suite, OWASP ZAP | Familiar (DVWA 실습) |
-| Programming & Scripting | Bash | Familiar |
-| Programming & Scripting | Python | Learning |
-| Infrastructure | VMware, Git, GitHub | Hands-on |
+**Operating Systems**
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-Hands--on-2ea44f?style=flat-square&logo=ubuntu&logoColor=white)
+![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-Hands--on-2ea44f?style=flat-square&logo=rockylinux&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-Hands--on-2ea44f?style=flat-square&logo=kalilinux&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-Hands--on-2ea44f?style=flat-square&logo=windows&logoColor=white)
+
+**SIEM & Security Monitoring**
+
+![Elastic Stack](https://img.shields.io/badge/Elastic_Stack-Hands--on-2ea44f?style=flat-square&logo=elastic&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-Hands--on-2ea44f?style=flat-square&logo=kibana&logoColor=white)
+![Logstash](https://img.shields.io/badge/Logstash-Hands--on-2ea44f?style=flat-square&logo=logstash&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-Learning-d29922?style=flat-square)
+
+**Network Security**
+
+![Wireshark](https://img.shields.io/badge/Wireshark-Hands--on-2ea44f?style=flat-square&logo=wireshark&logoColor=white)
+![pfSense](https://img.shields.io/badge/pfSense-Hands--on-2ea44f?style=flat-square&logo=pfsense&logoColor=white)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Familiar-0969da?style=flat-square)
+
+**IDS / IPS**
+
+![Snort](https://img.shields.io/badge/Snort_2.9.x-Hands--on-2ea44f?style=flat-square)
+![Suricata](https://img.shields.io/badge/Suricata-Hands--on-2ea44f?style=flat-square)
+
+**Web Security**
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-Familiar-0969da?style=flat-square&logo=burpsuite&logoColor=white)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-Familiar-0969da?style=flat-square&logo=owasp&logoColor=white)
+
+**Programming & Scripting**
+
+![Python](https://img.shields.io/badge/Python-Learning-d29922?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-Familiar-0969da?style=flat-square&logo=gnubash&logoColor=white)
+
+**Infrastructure & Development**
+
+![VMware](https://img.shields.io/badge/VMware-Hands--on-2ea44f?style=flat-square&logo=vmware&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Hands--on-2ea44f?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Hands--on-2ea44f?style=flat-square&logo=github&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-Hands--on-2ea44f?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Hands--on-2ea44f?style=flat-square&logo=typescript&logoColor=white)
 
 ---
 
@@ -140,6 +174,8 @@ Documentation & Detection Improvement
 ### Project 01. Wazuh SOC Security Monitoring Lab
 
 ![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
+![Wazuh](https://img.shields.io/badge/Wazuh-555555?style=flat-square)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
 <details>
 <summary>상세 보기</summary>
@@ -162,147 +198,9 @@ Documentation & Detection Improvement
 ### Project 02. Suricata IDS & Network Security Lab
 
 ![Status](https://img.shields.io/badge/Status-Hands--on-2ea44f?style=flat-square)
+![Suricata](https://img.shields.io/badge/Suricata-EF4444?style=flat-square)
+![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
 <details>
-<summary>상세 보기</summary>
-
-| 항목 | 내용 |
-|---|---|
-| Overview | Suricata 탐지 로그를 ELK 파이프라인으로 시각화하는 환경 |
-| Objective | 네트워크 트래픽과 IDS 이벤트의 관계 이해 |
-| Lab Environment | VMware, Ubuntu Server 24.04, Kali Linux (공격 호스트) |
-| Tools | Suricata, Logstash, Elasticsearch, Kibana |
-| Implementation | Suricata 설치·실행 → EVE JSON 확인 → Logstash 수집 → Kibana index pattern 구성 |
-| Analysis | 탐지 이벤트와 원본 트래픽 대조 `[사례 추가 필요]` |
-| Troubleshooting | Ubuntu 24.04 apt sources 경로 변경 이슈, index pattern 설정 오류 |
-| Evidence | `[확인 필요]` 스크린샷 / 설정 파일 |
-| Current Status | 기본 파이프라인 구성 완료 |
-| What I Learned | IDS 이벤트는 로그 수집과 정규화가 있어야 분석 가능하다는 점 |
-
-</details>
-
-### Project 03. pfSense Firewall Lab
-
-![Status](https://img.shields.io/badge/Status-Hands--on-2ea44f?style=flat-square)
-
-<details>
-<summary>상세 보기</summary>
-
-| 항목 | 내용 |
-|---|---|
-| Overview | VMware 가상 네트워크에서 pfSense 방화벽 구성 |
-| Objective | WAN/LAN 구조와 접근 제어 이해 |
-| Lab Environment | VMware Workstation, pfSense, Rocky Linux, Windows 10 (내부 호스트) |
-| Tools | pfSense, Wireshark |
-| Implementation | WAN/LAN 구성, Firewall Rule, NAT |
-| Analysis | 허용/차단 트래픽 비교 |
-| Troubleshooting | `[확인 필요]` |
-| Evidence | `[확인 필요]` |
-| Current Status | 기본 구성 및 테스트 완료 |
-| What I Learned | 규칙 순서와 방향(In/Out)이 정책 결과를 결정한다는 점 |
-
-pfBlockerNG, Suricata 연동, OpenVPN은 테스트 증거 확인 후 추가합니다.
-
-🔗 [Repository](https://github.com/changseop-blue/pfsense-portfolio) `[링크 확인 필요]`
-
-</details>
-
-### Project 04. Linux Security Log Analysis
-
-![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
-
-<details>
-<summary>상세 보기</summary>
-
-| 항목 | 내용 |
-|---|---|
-| Overview | Linux 인증 로그 분석 학습 |
-| Objective | 로그인 성공/실패 패턴과 Source IP 식별 |
-| Lab Environment | Rocky Linux / Ubuntu `[확인 필요]` |
-| Tools | `auth.log`, `secure`, grep, awk |
-| Implementation | `[확인 필요]` |
-| Analysis | 반복 인증 실패 패턴 확인 `[확인 필요]` |
-| Troubleshooting | `[확인 필요]` |
-| Evidence | `[확인 필요]` |
-| Current Status | 학습 중 |
-| What I Learned | `[실제 학습 내용으로 작성]` |
-
-</details>
-
-### Project 05. Python Security Basics
-
-![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
-
-<details>
-<summary>상세 보기</summary>
-
-| 항목 | 내용 |
-|---|---|
-| Overview | SOC 실무를 가정한 Python 5단계 학습 저장소 |
-| Objective | 파일·로그 처리와 로그 파싱 기초 |
-| Lab Environment | Python, PyCharm |
-| Tools | Python |
-| Implementation | 1~5단계 폴더 구조, 한국어 주석 |
-| Analysis | `[실제 구현한 기능만 기재]` |
-| Troubleshooting | `[확인 필요]` |
-| Evidence | 저장소 코드 |
-| Current Status | 학습 진행 중 (Capstone 완성 시 갱신) |
-| What I Learned | `[실제 학습 내용으로 작성]` |
-
-🔗 [Repository](https://github.com/changseop-blue/python-security-basics) `[링크 확인 필요]`
-
-</details>
-
-### Portfolio Website — roror.co.kr
-
-Next.js 14, TypeScript(App Router) 기반 개인 사이트입니다.
-JWT 인증 관리자 페이지와 마크다운 블로그를 운영하며, 글에는 MITRE ATT&CK 참조를 포함합니다.
-
-🔗 [Live Site](https://roror.co.kr) · [Repository](https://github.com/changseop-blue/soc-portfolio) `[링크 확인 필요]`
-
----
-
-## Home Security Lab
-
-<p align="center">
-  <img src="./assets/home-lab-diagram.svg" alt="Home Security Lab architecture diagram" width="720" />
-</p>
-
-<!-- 구성도는 실제 구축한 VM과 연결만 포함하는지 확인 후 사용.
-     (예: Kali, Ubuntu IDS, Rocky Linux 웹서버) 미구축 장비는 제거. -->
-
----
-
-## Education & Certifications
-
-| 기관 / 자격 | 과정 | 상태 |
-|---|---|---|
-| 코리아IT아카데미 | 정보보안산업기사 과정평가형 | 수료 |
-| 학점은행제 | 정보보안학 학사 | 진행 중 |
-| 정보보안산업기사 | 외부평가 | 재응시 준비 (미취득) |
-| 정보보안기사 | 정보보안 이론·실무 | 학습 중 `[확인 필요]` |
-| 리눅스마스터 2급 | Linux 시스템 운영 | 학습 중 `[확인 필요]` |
-
----
-
-## GitHub Activity
-
-[![Repositories](https://img.shields.io/badge/Repositories-View-181717?style=flat-square&logo=github)](https://github.com/changseop-blue?tab=repositories)
-[![Portfolio](https://img.shields.io/badge/Portfolio-roror.co.kr-004386?style=flat-square)](https://roror.co.kr)
-![Last Commit](https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=flat-square&label=LAST%20COMMIT)
-
-<!-- 통계 이미지는 장애가 잦아 접어 둠. 깨지면 이 블록만 삭제 -->
-<details>
-<summary>GitHub Stats</summary>
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=changseop-blue&show_icons=true&hide_border=true&title_color=004386&icon_color=004386)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=changseop-blue&hide_border=true&title_color=004386&layout=compact)
-
-</details>
-
----
-
-## Security Philosophy
-
-무슨 일이 발생했는가 → 왜 발생했는가 → 공격인가 → 어떻게 대응할 것인가.
-이 네 질문에 로그와 패킷이라는 객관적 증거로 답하는 분석가가 되겠습니다.
+<summary>상세

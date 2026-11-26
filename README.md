@@ -9,11 +9,10 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=changseop-blue&style=flat-square&color=blue&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/changseop-blue?style=flat-square&logo=github&label=FOLLOWERS)
-![Stars](https://img.shields.io/github/stars/changseop-blue?style=flat-square&logo=github&label=STARS)
 
 ![Role](https://img.shields.io/badge/Role-Blue_Team_%2F_SOC-004386?style=flat-square)
 ![Region](https://img.shields.io/badge/Region-Korea-555555?style=flat-square)
-![Goal](https://img.shields.io/badge/Goal-Entry--level_SOC_Analyst-2ea44f?style=flat-square)
+**Goal** Entry-level SOC Analyst
 
 **Contact** `leechangseop71@gmail.com`
 
@@ -95,15 +94,14 @@ Documentation & Detection Improvement
 
 - [ ] 정보보안산업기사 과정평가형 외부평가 재응시 준비
 - [ ] 정보보안기사 학습 <!-- 실제 학습 중일 때만 유지 -->
-- [ ] 리눅스마스터 2급 학습 <!-- 실제 학습 중일 때만 유지 -->
 
 ---
 
 ## Tech Stack
 
-![Hands-on](https://img.shields.io/badge/Level-Hands--on_직접_설치·실습-2ea44f?style=flat-square)
-![Familiar](https://img.shields.io/badge/Level-Familiar_기본_개념·사용법-0969da?style=flat-square)
-![Learning](https://img.shields.io/badge/Level-Learning_학습_중-d29922?style=flat-square)
+![Hands-on](https://img.shields.io/badge/Level-Hands--on-2ea44f?style=flat-square) 직접 설치하고 실습한 기술
+![Familiar](https://img.shields.io/badge/Level-Familiar-0969da?style=flat-square) 기본 개념과 사용법을 학습한 기술
+![Learning](https://img.shields.io/badge/Level-Learning-d29922?style=flat-square) 현재 학습 중인 기술
 
 **Operating Systems**
 
@@ -120,7 +118,7 @@ Documentation & Detection Improvement
 
 **IDS / IPS**
 
-![Snort](https://img.shields.io/badge/Snort_2.9.x-Hands--on-2ea44f?style=flat-square)
+![Snort](https://img.shields.io/badge/Snort-Hands--on-2ea44f?style=flat-square)
 ![Suricata](https://img.shields.io/badge/Suricata-Hands--on-2ea44f?style=flat-square)
 
 **Network & Web Security**
@@ -188,7 +186,7 @@ Documentation & Detection Improvement
 ### Project 02. Snort / Suricata IDS & ELK Lab
 
 ![Status](https://img.shields.io/badge/Status-Hands--on-2ea44f?style=flat-square)
-![Snort](https://img.shields.io/badge/Snort_2.9.x-316192?style=flat-square)
+![Snort](https://img.shields.io/badge/Snort-316192?style=flat-square)
 ![Suricata](https://img.shields.io/badge/Suricata-EF4444?style=flat-square)
 ![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
 
@@ -239,7 +237,7 @@ Documentation & Detection Improvement
 ### Project 04. Linux Security Log Analysis
 
 ![Status](https://img.shields.io/badge/Status-Learning-d29922?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-Logs-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-555555?style=flat-square)
 
 <details>
 <summary>상세 보기</summary>
@@ -274,16 +272,12 @@ Documentation & Detection Improvement
 
 ## Education & Certifications
 
-![정보보안산업기사](https://img.shields.io/badge/정보보안산업기사-재응시_준비-f0883e?style=flat-square)
-![정보보안기사](https://img.shields.io/badge/정보보안기사-학습_중-d29922?style=flat-square)
-
 | 기관 / 자격 | 과정 | 상태 |
 |---|---|---|
 | 코리아IT아카데미 | 정보보안산업기사 과정평가형 | 수료 |
 | 학점은행제 | 정보보안학 학사 | 진행 중 |
 | 정보보안산업기사 | 외부평가 | 재응시 준비 (미취득) |
 | 정보보안기사 | 정보보안 이론·실무 | 학습 중 `[확인 필요]` |
-| 리눅스마스터 2급 | Linux 시스템 운영 | 학습 중 `[확인 필요]` |
 
 **Career Goal**
 
@@ -296,9 +290,7 @@ Junior Security Analyst → SOC / Security Monitoring → Incident Response & Th
 ## GitHub Activity
 
 [![Repositories](https://img.shields.io/badge/Repositories-View-181717?style=flat-square&logo=github)](https://github.com/changseop-blue?tab=repositories)
-[![Starred](https://img.shields.io/badge/Starred-View-181717?style=flat-square&logo=github)](https://github.com/changseop-blue?tab=stars)
-![Last Commit](https://img.shields.io/github/last-commit/changseop-blue/changseop-blue?style=flat-square&label=LAST%20COMMIT)
-![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchangseop-blue&query=%24.public_repos&label=PUBLIC%20REPOS&style=flat-square&color=004386)
+[Starred](https://github.com/changseop-blue?tab=stars)
 
 ---
 

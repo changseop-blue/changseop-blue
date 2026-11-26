@@ -276,7 +276,6 @@ Documentation & Detection Improvement
 
 ![정보보안산업기사](https://img.shields.io/badge/정보보안산업기사-재응시_준비-f0883e?style=flat-square)
 ![정보보안기사](https://img.shields.io/badge/정보보안기사-학습_중-d29922?style=flat-square)
-![리눅스마스터 2급](https://img.shields.io/badge/리눅스마스터_2급-학습_중-d29922?style=flat-square)
 
 | 기관 / 자격 | 과정 | 상태 |
 |---|---|---|
